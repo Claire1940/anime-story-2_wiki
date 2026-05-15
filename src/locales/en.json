@@ -227,85 +227,141 @@
     },
     "animeStory2TraitsRerollsGuide": {
       "title": "Anime Story 2 Traits and Rerolls Guide",
-      "intro": "Anime Story 2 trait rerolls pay off most when used on long-term units instead of temporary leveling units.",
+      "intro": "Traits are passive buffs for units, and each unit can hold one trait at a time. Use Trait Tokens at the lobby Upgrade NPC to reroll for stronger damage, survival, or utility bonuses.",
       "traits": [
         {
-          "name": "Damage Traits",
-          "description": "Use on carry DPS units for faster clears and better boss pressure."
+          "name": "Monarch",
+          "description": "Top-end roll with major crit, health, and damage boosts. Keep on every long-term carry."
         },
         {
-          "name": "Speed and Turn Traits",
-          "description": "Strong for teams that depend on opening action order."
+          "name": "Ethereal and Berserk",
+          "description": "High-value damage traits for pure DPS carries that need faster stage and boss clears."
         },
         {
-          "name": "Defensive Traits",
-          "description": "Best for tank slots in raids, tower, and high-pressure modes."
+          "name": "Solar and Cosmic",
+          "description": "Balanced traits that add both survivability and damage for bruiser or hybrid units."
         },
         {
-          "name": "Support Traits",
-          "description": "Increase consistency for healing, crit boosts, and team buffs."
+          "name": "Dead Eye and Sharp Shooter",
+          "description": "Critical-focused traits for units that scale with crit chance and crit damage."
+        },
+        {
+          "name": "Impair III and Keen III",
+          "description": "Strong mid-tier keeps while farming for rare traits with limited Trait Tokens."
+        },
+        {
+          "name": "Vigor and Tank",
+          "description": "Useful survival options for frontline units, but reroll on main carries when possible."
         }
       ]
     },
     "animeStory2WorldsProgression": {
       "title": "Anime Story 2 Worlds and Story Progression",
-      "intro": "Anime Story 2 progression is fastest when each world clear feeds upgrades for the next unlock.",
+      "intro": "There are 11 story worlds and each one has 7 stages. Push the newest world you can clear, then return to Stage VII farms for shards, relic crafting, and evolution materials.",
       "steps": [
         {
-          "title": "Clear current world fully",
-          "description": "Finish stage goals and side requirements before pushing forward."
+          "title": "Green Planet",
+          "description": "Combat Power 55 to 1.33K. Farm Stage VII for Green Shards and early evolution materials like Scantron."
         },
         {
-          "title": "Upgrade core team after each unlock",
-          "description": "Spend rewards immediately on your main five units."
+          "title": "Desert",
+          "description": "Combat Power 2.05K to 6.07K. Stage VII drops Orange Shards for Kunai relic crafting."
         },
         {
-          "title": "Rotate between story and daily quests",
-          "description": "Sustain Gems, tokens, and materials while unlocking worlds."
+          "title": "Double Dungeon",
+          "description": "Combat Power 6.8K to 13.3K. Stage VII drops Blue Shards for Elixir relic crafting."
         },
         {
-          "title": "Prepare for challenge and raid gates",
-          "description": "Use world rewards to meet the damage and survivability checks."
+          "title": "Titan City",
+          "description": "Combat Power 14K to 18.8K. Stage VII drops Grey Shards for Grapple Hook relic crafting."
+        },
+        {
+          "title": "Beach Harbor",
+          "description": "Combat Power 19K to 33.2K. Stage VII drops Yellow Shards for Strawhat relic crafting."
+        },
+        {
+          "title": "Gold District",
+          "description": "Combat Power 34K to 44.1K. Stage VII drops Red Shards for Katana relic crafting."
+        },
+        {
+          "title": "Soul Haven",
+          "description": "Combat Power 35.4K to 50.9K. Treat as progression priority before heavy farming."
+        },
+        {
+          "title": "Realm Seven",
+          "description": "Combat Power 59K to 64.8K. Farm for unit drops and related evolution materials."
+        },
+        {
+          "title": "Snow Village",
+          "description": "Combat Power 60.8K to 99.3K. Stage VII drops Purple Shards for Flame Sword crafting."
+        },
+        {
+          "title": "Heroic City",
+          "description": "Combat Power 78.6K to 171K. Stage VII drops Brown Shards for Baseball Bat crafting."
+        },
+        {
+          "title": "Rome",
+          "description": "Combat Power 63K to 170K. Stage VII can drop Unbreaking Diamond for Golden Wind evolution."
         }
       ]
     },
     "animeStory2ItemsRelicsMaterials": {
       "title": "Anime Story 2 Items Relics and Evolution Materials",
-      "intro": "Anime Story 2 resources should be split by immediate use and long-term investment to avoid waste.",
+      "intro": "Use this Anime Story 2 resource map to decide what to farm first for upgrades, rerolls, relic crafting, ascension, and evolution progress.",
       "cards": [
         {
-          "name": "Summon Currency",
-          "description": "Spend only when banners align with your priority units."
+          "name": "Trait Tokens and Stat Chips",
+          "description": "Main reroll resources from Coin Shop, codes, quests, and challenges. Prioritize for long-term carries."
         },
         {
-          "name": "Trait Tokens",
-          "description": "Save for units that already occupy permanent team slots."
+          "name": "Ascend Tickets",
+          "description": "Use mainly on high-value Legendary, Mythic, Secret, or Exclusive units."
         },
         {
-          "name": "Secret Orbs and Ascend Tickets",
-          "description": "Reserve for upgrade breakpoints on high-value units."
+          "name": "Stage VII Shards",
+          "description": "Green, Orange, Blue, Grey, Yellow, Red, Purple, and Brown Shards power relic crafting across progression tiers."
         },
         {
-          "name": "Event Tokens",
-          "description": "Compare event shop value before spending on short-term items."
+          "name": "Raid Shop Evolution Materials",
+          "description": "Target specific raids for Sangetsu Blade, Shirayuki Core, Raven Feather, Ki Orb, Earring, Rose, and similar evolution items."
+        },
+        {
+          "name": "Star Evolution Items",
+          "description": "Green, Yellow, Purple, Red, and Rainbow Stars are core evolution bottlenecks from challenges and shops."
+        },
+        {
+          "name": "Consumables",
+          "description": "Use Drops, Luck, and Coins potions right before farming sessions to increase output efficiency."
+        },
+        {
+          "name": "Early and Mid-Game Relics",
+          "description": "Dragon Ball, Kunai, Elixir, Grapple Hook, Strawhat, and Katana provide clean stat spikes while climbing story worlds."
+        },
+        {
+          "name": "Late-Game and Hybrid Relics",
+          "description": "Flame Sword, Baseball Bat, Demon Ring, Coal, and Candy support endgame crit, damage, health, and defensive builds."
         }
       ]
     },
     "animeStory2TowerRaidsSlimeEvent": {
       "title": "Anime Story 2 Tower Raids and Slime Event",
-      "intro": "Anime Story 2 endgame progression comes from cycling tower, raids, and event loops with a stable roster plan.",
+      "intro": "After story progression, Tower, Raids, and the Slime event are the main routes for rerolls, raid tokens, evolution materials, and event currency.",
       "cards": [
         {
           "name": "Tower of Ascension",
-          "description": "Climb consistently with one carry, one tank, and dependable support units."
+          "description": "Push loop milestones for rerolls and limited-unit chances. Difficulty spikes near each 250-floor cycle endpoint."
         },
         {
-          "name": "Raids",
-          "description": "Prioritize single-target burst and survival for boss phases."
+          "name": "Raids and Raid Shop",
+          "description": "Farm the raid tied to your target evolution and spend tokens on focused materials instead of split projects."
         },
         {
-          "name": "Slime Event",
-          "description": "Spend event tokens on resources that unlock permanent roster upgrades."
+          "name": "Slime Apocalypse Event",
+          "description": "Farm Slime Tokens for event shop value, then choose between upgrade items and exclusive banner progress."
+        },
+        {
+          "name": "Recommended Farming Order",
+          "description": "Push story, farm needed Stage VII shards, clear Tower milestones, run target raids, then optimize event token spending."
         }
       ]
     }
@@ -359,60 +415,60 @@
   "pages": {
     "guides": {
       "title": "Anime Story 2 Guides",
-      "description": "Complete gameplay guides from beginner basics to advanced Apotheosis strategies. Master survival and crafting.",
+      "description": "Complete gameplay guides from beginner basics to advanced team-building and farming strategies.",
       "metaTitle": "Anime Story 2 Guides - Beginner to Advanced Strategies",
-      "metaDescription": "Complete Anime Story 2 guides covering beginner tips, Apotheosis system, survival strategies, and expert tactics for mastering the surreal sandbox.",
+      "metaDescription": "Complete Anime Story 2 guides covering beginner tips, team upgrades, farming loops, and advanced progression tactics.",
       "categoryLabel": "GAME GUIDES",
       "whatIs": "What are Guides?",
-      "whatIsDescription": "Comprehensive guides covering gameplay mechanics, survival strategies, and the Apotheosis crafting system. Learn everything from first steps to advanced techniques.",
+      "whatIsDescription": "Comprehensive guides for codes, units, traits, worlds, relics, raids, and event progression from first steps to endgame optimization.",
       "why": "Why read guides?",
       "whySteps": {
         "step1Title": "Learn Core Mechanics",
-        "step1Description": "Understand the Apotheosis system and avoid common beginner mistakes",
+        "step1Description": "Understand summoning, upgrades, traits, and stage progression without wasting resources",
         "step2Title": "Fast Progression",
-        "step2Description": "Follow proven paths to survive and thrive in the surreal world",
+        "step2Description": "Follow proven routes for worlds, raids, and events to accelerate account growth",
         "step3Title": "Master Strategies",
-        "step3Description": "Develop advanced tactics for exploration and crafting"
+        "step3Description": "Build stronger teams with role planning, relic choices, and reroll priorities"
       },
       "featured": "Featured & Essential",
       "all": "All Guides"
     },
     "crafting": {
       "title": "Anime Story 2 Crafting",
-      "description": "Master the Apotheosis fusion system with essence mechanics, recipes, and crafting strategies for powerful items.",
-      "metaTitle": "Anime Story 2 Crafting - Apotheosis System & Recipes",
-      "metaDescription": "Master Anime Story 2 Apotheosis crafting system. Learn essence mechanics, fusion recipes, and strategies for creating powerful tools and weapons.",
+      "description": "Master relic crafting with shard routes, coin planning, and upgrade timing for stronger roster scaling.",
+      "metaTitle": "Anime Story 2 Crafting - Relics, Shards, and Upgrade Routes",
+      "metaDescription": "Learn Anime Story 2 relic crafting with Stage VII shard farming, coin costs, and practical progression strategies.",
       "categoryLabel": "CRAFTING SYSTEM",
       "whatIs": "What is Crafting?",
-      "whatIsDescription": "The Apotheosis system is a unique essence-driven fusion mechanic where you combine up to six items to discover new recipes. No fixed crafting menus—experimentation is key.",
+      "whatIsDescription": "Crafting focuses on turning world shards and coins into relics that boost damage, critical chance, or survivability for your core units.",
       "why": "Why master crafting?",
       "whySteps": {
         "step1Title": "Unlock Powerful Items",
-        "step1Description": "Discover essential tools, weapons, and mobility gear through fusion",
-        "step2Title": "Understand Essences",
-        "step2Description": "Learn how item essences combine to create predictable results",
+        "step1Description": "Craft relics that create immediate power spikes for story clears and boss fights",
+        "step2Title": "Target Correct Shards",
+        "step2Description": "Farm specific Stage VII worlds to build the relic path that matches your team needs",
         "step3Title": "Optimize Resources",
-        "step3Description": "Use dilution mechanics to maximize output from cheap materials"
+        "step3Description": "Balance coin spending, rerolls, and crafting so progression stays smooth"
       },
       "featured": "Featured & Essential",
       "all": "All Crafting Guides"
     },
     "items": {
       "title": "Anime Story 2 Items",
-      "description": "Detailed item guides covering tools, weapons, mobility gear, and storage solutions with crafting recipes and usage tips.",
-      "metaTitle": "Anime Story 2 Items - Tools, Weapons & Gear Guide",
-      "metaDescription": "Complete item database for Anime Story 2 including tools, weapons, mobility gear, and storage. Learn how to craft and use every item effectively.",
+      "description": "Detailed item guides covering upgrade items, shards, evolution materials, consumables, and relic usage priorities.",
+      "metaTitle": "Anime Story 2 Items - Upgrade Materials and Relics Guide",
+      "metaDescription": "Complete Anime Story 2 item coverage including Trait Tokens, shards, evolution materials, consumables, and relic planning.",
       "categoryLabel": "ITEMS & EQUIPMENT",
       "whatIs": "What are Items?",
-      "whatIsDescription": "Comprehensive guides for tools, weapons, mobility gear, and functional items. Learn crafting recipes, usage strategies, and optimal combinations.",
+      "whatIsDescription": "Comprehensive guides for reroll resources, evolution drops, raid shop items, and relic ingredients with clear farming targets.",
       "why": "Why check item guides?",
       "whySteps": {
-        "step1Title": "Learn Crafting Recipes",
-        "step1Description": "Discover how to craft essential tools and weapons using Apotheosis",
+        "step1Title": "Prioritize Farming",
+        "step1Description": "Know which items to farm now and which to save for later power spikes",
         "step2Title": "Optimize Equipment",
-        "step2Description": "Choose the best items for your playstyle and progression stage",
+        "step2Description": "Match relic and material spending to your current carry units and team role gaps",
         "step3Title": "Improve Survival",
-        "step3Description": "Equip mobility gear and weapons to navigate the dangerous world"
+        "step3Description": "Avoid waste by timing rerolls and ascension upgrades around milestone content"
       },
       "featured": "Featured & Essential",
       "all": "All Items"
@@ -421,38 +477,38 @@
       "title": "Anime Story 2 Biomes",
       "description": "Explore world regions, environmental features, resource locations, and survival tips for each biome.",
       "metaTitle": "Anime Story 2 Biomes - World Regions & Exploration",
-      "metaDescription": "Explore Anime Story 2 biomes including Tiamana Leylines, Fog Meadow, and surreal regions. Find resources, avoid dangers, and navigate the infinite world.",
+      "metaDescription": "Explore Anime Story 2 worlds by stage difficulty, shard rewards, and progression targets for faster unlock routes.",
       "categoryLabel": "WORLD REGIONS",
       "whatIs": "What are Biomes?",
       "whatIsDescription": "Guides to different world regions, environmental features, resource distribution, and danger zones. Learn what to expect and how to prepare for each area.",
       "why": "Why explore biomes?",
       "whySteps": {
         "step1Title": "Find Resources",
-        "step1Description": "Locate rare materials and essences specific to each region",
+        "step1Description": "Locate shard and evolution drops tied to specific world stages",
         "step2Title": "Avoid Dangers",
-        "step2Description": "Understand environmental hazards and hostile creatures",
+        "step2Description": "Understand combat power jumps and enemy pressure between world tiers",
         "step3Title": "Plan Exploration",
-        "step3Description": "Prepare the right tools and gear for each biome type"
+        "step3Description": "Plan team upgrades before pushing into harder story worlds"
       },
       "featured": "Featured & Essential",
       "all": "All Biomes"
     },
     "building": {
       "title": "Anime Story 2 Building",
-      "description": "Master Qualia personal dimensions, base building, storage management, and creative construction techniques.",
-      "metaTitle": "Anime Story 2 Building - Qualia & Base Construction",
-      "metaDescription": "Master Anime Story 2 building with Qualia personal dimensions, base construction, storage solutions, and creative building techniques.",
+      "description": "Build stronger lineups with unit role planning, progression pacing, and upgrade sequencing.",
+      "metaTitle": "Anime Story 2 Building - Team Composition and Progression Setup",
+      "metaDescription": "Master Anime Story 2 team building with carry focus, support balance, and upgrade sequencing for efficient progression.",
       "categoryLabel": "BUILDING & BASES",
       "whatIs": "What is Building?",
-      "whatIsDescription": "Guides to the Qualia personal dimension system, base construction, storage management, and creative building. Learn to create your safe haven in the surreal world.",
+      "whatIsDescription": "Guides focused on building reliable teams with balanced roles, trait priorities, relic paths, and farming plans.",
       "why": "Why build bases?",
       "whySteps": {
-        "step1Title": "Create Safe Spaces",
-        "step1Description": "Establish secure bases for storage and crafting operations",
+        "step1Title": "Create Stable Teams",
+        "step1Description": "Use one carry, one frontline, and support coverage to avoid progression stalls",
         "step2Title": "Manage Resources",
-        "step2Description": "Organize materials efficiently with storage solutions",
-        "step3Title": "Unlock Qualia",
-        "step3Description": "Access personal pocket dimensions for ultimate convenience"
+        "step2Description": "Spend Gems, tokens, and materials on units that stay in your long-term lineup",
+        "step3Title": "Scale Efficiently",
+        "step3Description": "Align upgrades with world unlocks, tower goals, and raid evolution targets"
       },
       "featured": "Featured & Essential",
       "all": "All Building Guides"
@@ -461,10 +517,10 @@
       "title": "Anime Story 2 Support",
       "description": "Technical support, platform compatibility, performance optimization, and troubleshooting for common issues.",
       "metaTitle": "Anime Story 2 Support - Technical Help & Fixes",
-      "metaDescription": "Get technical support for Anime Story 2 including Steam Deck setup, crash fixes, performance optimization, and platform compatibility guides.",
+      "metaDescription": "Get technical support for Anime Story 2 including crash fixes, lag reduction, and platform compatibility guidance.",
       "categoryLabel": "TECHNICAL SUPPORT",
       "whatIs": "What is Support?",
-      "whatIsDescription": "Technical guides covering platform compatibility, performance optimization, crash fixes, and common issues. Get help with Steam Deck, multiplayer questions, and settings.",
+      "whatIsDescription": "Technical guides covering platform compatibility, performance optimization, crashes, and common Roblox gameplay issues.",
       "why": "Why check support?",
       "whySteps": {
         "step1Title": "Fix Technical Issues",
@@ -472,7 +528,7 @@
         "step2Title": "Optimize Performance",
         "step2Description": "Configure settings for best experience on your platform",
         "step3Title": "Platform Compatibility",
-        "step3Description": "Learn about Steam Deck, controller support, and system requirements"
+        "step3Description": "Learn about PC, mobile, and console behavior, plus controller-friendly settings"
       },
       "featured": "Featured & Essential",
       "all": "All Support Articles"
