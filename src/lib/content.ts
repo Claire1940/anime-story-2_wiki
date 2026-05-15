@@ -1,5 +1,6 @@
 import fs from 'fs'
 import path from 'path'
+import matter from 'gray-matter'
 import { CONTENT_TYPES as CONFIG_CONTENT_TYPES } from '@/config/navigation'
 import type { Locale } from '@/i18n/routing'
 
@@ -75,6 +76,44 @@ export interface ContentData {
   frontmatter: ContentFrontmatter
 }
 
+function getContentFilePath(contentType: ContentType, language: Language, slug: string): string | null {
+  const contentDir = path.join(process.cwd(), 'content', language, contentType)
+  const realSlug = findFileBySlug(contentDir, slug)
+
+  if (!realSlug) {
+    return null
+  }
+
+  return path.join(contentDir, `${realSlug}.mdx`)
+}
+
+function readFrontmatter(filePath: string): ContentFrontmatter {
+  const source = fs.readFileSync(filePath, 'utf8')
+  const { data } = matter(source)
+  return data as ContentFrontmatter
+}
+
+export function getContentFrontmatter(
+  contentType: ContentType,
+  language: Language,
+  slug: string
+): ContentFrontmatter | null {
+  const filePath = getContentFilePath(contentType, language, slug)
+
+  if (filePath) {
+    return readFrontmatter(filePath)
+  }
+
+  if (language !== 'en') {
+    const fallbackPath = getContentFilePath(contentType, 'en', slug)
+    if (fallbackPath) {
+      return readFrontmatter(fallbackPath)
+    }
+  }
+
+  return null
+}
+
 /**
  * 辅助函数：递归获取目录下所有 MDX 文件的 slug
  */
@@ -119,32 +158,16 @@ export async function getAllContent(
     slugs = [...new Set([...slugs, ...enSlugs])]
   }
 
-  // 使用 import 获取每个文件的 metadata
   for (const slug of slugs) {
-    try {
-      // 先尝试当前语言（反查真实文件名以处理含特殊字符的文件名）
-      const realSlug = findFileBySlug(contentDir, slug) || slug
-      const mod = await import(`../../content/${language}/${contentType}/${realSlug}.mdx`)
-      items.push({
-        slug,
-        frontmatter: mod.metadata as ContentFrontmatter,
-      })
-    } catch {
-      // Fallback 到英文
-      if (language !== 'en') {
-        try {
-          const enContentDir = path.join(process.cwd(), 'content', 'en', contentType)
-          const enRealSlug = findFileBySlug(enContentDir, slug) || slug
-          const mod = await import(`../../content/en/${contentType}/${enRealSlug}.mdx`)
-          items.push({
-            slug,
-            frontmatter: mod.metadata as ContentFrontmatter,
-          })
-        } catch {
-          // 跳过无法加载的文件
-        }
-      }
+    const frontmatter = getContentFrontmatter(contentType, language, slug)
+    if (!frontmatter) {
+      continue
     }
+
+    items.push({
+      slug,
+      frontmatter,
+    })
   }
 
   // 按日期排序(最新的在前)

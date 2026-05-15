@@ -3,12 +3,12 @@ import { getTranslations } from 'next-intl/server'
 import {
   getAllContentPaths,
   getAllContent,
+  getContentFrontmatter,
   isValidContentType,
   findFileBySlug,
   CONTENT_TYPES,
   type ContentType,
   type Language,
-  type ContentFrontmatter,
 } from '@/lib/content'
 import path from 'path'
 import { NavigationPage } from '@/components/content/NavigationPage'
@@ -120,9 +120,14 @@ async function renderDetailPage(
     const contentDir = path.join(process.cwd(), 'content', locale, contentType)
     const realSlug = findFileBySlug(contentDir, currentSlug) || currentSlug
 
-    const { default: MDXContent, metadata } = await import(
+    const { default: MDXContent } = await import(
       `../../../../content/${locale}/${contentType}/${realSlug}.mdx`
     )
+    const frontmatter = getContentFrontmatter(contentType, locale, currentSlug)
+
+    if (!frontmatter) {
+      notFound()
+    }
 
     // 获取相关文章
     const allContent = await getAllContent(contentType, locale)
@@ -133,13 +138,13 @@ async function renderDetailPage(
     return (
       <>
         <ArticleStructuredData
-          frontmatter={metadata as ContentFrontmatter}
+          frontmatter={frontmatter}
           contentType={contentType}
           locale={locale}
           slug={currentSlug}
         />
         <DetailPage
-          frontmatter={metadata as ContentFrontmatter}
+          frontmatter={frontmatter}
           content={<MDXContent />}
           contentType={contentType}
           language={locale}
@@ -155,9 +160,14 @@ async function renderDetailPage(
         const enDir = path.join(process.cwd(), 'content', 'en', contentType)
         const enRealSlug = findFileBySlug(enDir, currentSlug) || currentSlug
 
-        const { default: MDXContent, metadata } = await import(
+        const { default: MDXContent } = await import(
           `../../../../content/en/${contentType}/${enRealSlug}.mdx`
         )
+        const frontmatter = getContentFrontmatter(contentType, locale, currentSlug)
+
+        if (!frontmatter) {
+          notFound()
+        }
 
         const allContent = await getAllContent(contentType, locale)
         const relatedArticles = allContent
@@ -167,13 +177,13 @@ async function renderDetailPage(
         return (
           <>
             <ArticleStructuredData
-              frontmatter={metadata as ContentFrontmatter}
+              frontmatter={frontmatter}
               contentType={contentType}
               locale={locale}
               slug={currentSlug}
             />
             <DetailPage
-              frontmatter={metadata as ContentFrontmatter}
+              frontmatter={frontmatter}
               content={<MDXContent />}
               contentType={contentType}
               language={locale}
@@ -296,23 +306,21 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
     const currentSlug = slugPath.join('/')
 
     try {
-      const contentDir = path.join(process.cwd(), 'content', locale, contentType)
-      const realSlug = findFileBySlug(contentDir, currentSlug) || currentSlug
-
-      const { metadata } = await import(
-        `../../../../content/${locale}/${contentType}/${realSlug}.mdx`
-      )
+      const frontmatter = getContentFrontmatter(contentType, locale as Language, currentSlug)
+      if (!frontmatter) {
+        return { title: 'Not Found' }
+      }
 
       const fullPath = `/${slug.join('/')}`
 
       return {
-        title: `${metadata.title} - Anime Story 2 Wiki`,
-        description: metadata.description,
+        title: `${frontmatter.title} - Anime Story 2 Wiki`,
+        description: frontmatter.description,
         alternates: buildLanguageAlternates(fullPath, locale as Locale, siteUrl),
         openGraph: {
-          title: metadata.title,
-          description: metadata.description,
-          images: metadata.image ? [metadata.image] : [],
+          title: frontmatter.title,
+          description: frontmatter.description,
+          images: frontmatter.image ? [frontmatter.image] : [],
           url: `${siteUrl}${locale === 'en' ? fullPath : `/${locale}${fullPath}`}`,
         },
         robots: {
@@ -331,23 +339,21 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
       // Fallback 到英文
       if (locale !== 'en') {
         try {
-          const enDir = path.join(process.cwd(), 'content', 'en', contentType)
-          const enRealSlug = findFileBySlug(enDir, currentSlug) || currentSlug
-
-          const { metadata } = await import(
-            `../../../../content/en/${contentType}/${enRealSlug}.mdx`
-          )
+          const frontmatter = getContentFrontmatter(contentType, locale as Language, currentSlug)
+          if (!frontmatter) {
+            return { title: 'Not Found' }
+          }
 
           const fullPath = `/${slug.join('/')}`
 
           return {
-            title: `${metadata.title} - Anime Story 2 Wiki`,
-            description: metadata.description,
+            title: `${frontmatter.title} - Anime Story 2 Wiki`,
+            description: frontmatter.description,
             alternates: buildLanguageAlternates(fullPath, locale as Locale, siteUrl),
             openGraph: {
-              title: metadata.title,
-              description: metadata.description,
-              images: metadata.image ? [metadata.image] : [],
+              title: frontmatter.title,
+              description: frontmatter.description,
+              images: frontmatter.image ? [frontmatter.image] : [],
               url: `${siteUrl}${locale === 'en' ? fullPath : `/${locale}${fullPath}`}`,
             },
             robots: {
