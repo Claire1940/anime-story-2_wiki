@@ -296,8 +296,8 @@ export default function HomePageClient({ latestArticles, locale }: HomePageClien
               <ul className="space-y-2 text-sm">
                 <li><a href="https://www.roblox.com/communities/35906875/Anime-Story-Lab" target="_blank" rel="noopener noreferrer" className="text-muted-foreground hover:text-[hsl(var(--nav-theme-light))] transition">{t.footer.discord}</a></li>
                 <li><a href="https://www.youtube.com/watch?v=QzjTUZUQeAE" target="_blank" rel="noopener noreferrer" className="text-muted-foreground hover:text-[hsl(var(--nav-theme-light))] transition">{t.footer.twitter}</a></li>
-                <li><a href="https://www.roblox.com/games/116766451305209/Anime-Story-2" target="_blank" rel="noopener noreferrer" className="text-muted-foreground hover:text-[hsl(var(--nav-theme-light))] transition">{t.footer.steamCommunity}</a></li>
-                <li><a href="https://www.roblox.com/games/116766451305209/Anime-Story-2" target="_blank" rel="noopener noreferrer" className="text-muted-foreground hover:text-[hsl(var(--nav-theme-light))] transition">{t.footer.steamStore}</a></li>
+                <li><a href="https://www.roblox.com/games/116766451305209/Anime-Story-2" target="_blank" rel="noopener noreferrer" className="text-muted-foreground hover:text-[hsl(var(--nav-theme-light))] transition">{t.footer.robloxCommunity}</a></li>
+                <li><a href="https://www.roblox.com/games/116766451305209/Anime-Story-2" target="_blank" rel="noopener noreferrer" className="text-muted-foreground hover:text-[hsl(var(--nav-theme-light))] transition">{t.footer.robloxPlatform}</a></li>
               </ul>
             </div>
             <div>

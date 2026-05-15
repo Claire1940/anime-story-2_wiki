@@ -3,21 +3,23 @@
   "api_base_url": "https://api.apifast.tech/v1",
   "model": "gemini-2.5-flash",
   "group": "default",
-
   "temperature": 0.1,
   "max_tokens": 32768,
   "timeout": 120,
   "retry_attempts": 3,
   "retry_delay": 5,
-
-  "languages": ["pt", "es", "id"],
+  "languages": [
+    "pt",
+    "es",
+    "id"
+  ],
   "default_language": "en",
   "output_dir": "src/locales/",
-
-  "use_value_extraction": false,
-
+  "use_value_extraction": true,
   "protected_terms": {
-    "game_names": ["Anime Story 2"],
+    "game_names": [
+      "Anime Story 2"
+    ],
     "character_names": [],
     "technical_terms": [
       "Anime Story 2",
@@ -30,14 +32,12 @@
       "Worlds"
     ]
   },
-
   "game_names": {
     "en": "Anime Story 2",
     "pt": "História de Anime 2",
     "es": "Historia de anime 2",
     "id": "Cerita Anime 2"
   },
-
   "lang_names": {
     "pt": "Portuguese (Brazil)",
     "es": "Spanish (Latin America)",

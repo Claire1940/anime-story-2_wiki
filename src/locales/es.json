@@ -1,933 +1,565 @@
 {
   "seo": {
     "home": {
-      "title": "Wiki de Lucid Blocks - Fabricación, biomas y logros",
-      "description": "La Wiki de Lucid Blocks cubre fabricación, biomas, criaturas, objetos, logros, finales y consejos de supervivencia para la aventura surrealista de sandbox de vóxeles en Steam.",
-      "keywords": "Lucid Blocks, Lucid Blocks wiki, fabricación, biomas, logros, supervivencia, Steam",
-      "ogTitle": "Wiki de Lucid Blocks - Fabricación, biomas y logros",
-      "ogDescription": "La Wiki de Lucid Blocks cubre fabricación, biomas, criaturas, objetos, logros, finales y consejos de supervivencia para la aventura surrealista de sandbox de vóxeles en Steam.",
-      "twitterTitle": "Wiki de Lucid Blocks - Fabricación, biomas y logros",
-      "twitterDescription": "La Wiki de Lucid Blocks cubre fabricación, biomas, criaturas, objetos, logros y consejos de supervivencia para el sandbox surrealista de vóxeles en Steam."
+      "title": "Wiki de Anime Story 2 - Codes, Units, Traits y Worlds",
+      "description": "La Wiki de Anime Story 2 cubre códigos funcionales, progresión para principiantes, selecciones de nivel, units, traits, worlds, relics y rutas de farmeo de eventos para jugadores de Roblox.",
+      "keywords": "Anime Story 2, códigos de Anime Story 2, lista de niveles de Anime Story 2, units de Anime Story 2, traits de Anime Story 2, worlds de Anime Story 2",
+      "ogTitle": "Wiki de Anime Story 2 - Codes, Units, Traits y Worlds",
+      "ogDescription": "La Wiki de Anime Story 2 cubre códigos funcionales, progresión para principiantes, selecciones de nivel, units, traits, worlds, relics y rutas de farmeo de eventos para jugadores de Roblox.",
+      "twitterTitle": "Wiki de Anime Story 2 - Codes, Units, Traits y Worlds",
+      "twitterDescription": "Guías de Anime Story 2 para códigos, crecimiento de units, traits, worlds y eventos de endgame."
     }
   },
   "nav": {
-    "guide": "Guide",
-    "codes": "Codes",
-    "farming": "Farming",
-    "modes": "Modes",
-    "summons": "Summons",
-    "tierList": "Tier List",
+    "guide": "Guía",
+    "codes": "Códigos",
+    "farming": "Farmeo",
+    "modes": "Modos",
+    "summons": "Invocaciones",
+    "tierList": "Lista de Niveles",
     "traits": "Traits"
   },
   "common": {
     "home": "Inicio",
     "more": "Más",
-    "playNow": "Juega en Steam",
-    "switchLanguage": "Cambiar idioma",
-    "switchTheme": "Cambiar tema",
-    "lightMode": "Modo claro",
-    "darkMode": "Modo oscuro",
-    "notFound": "Página no encontrada",
+    "playNow": "Jugar en Roblox",
+    "switchLanguage": "Cambiar Idioma",
+    "switchTheme": "Cambiar Tema",
+    "lightMode": "Modo Claro",
+    "darkMode": "Modo Oscuro",
+    "notFound": "Página No Encontrada",
     "notFoundDescription": "La página que buscas no existe.",
-    "backToHome": "Volver al inicio",
-    "relatedArticles": "Artículos relacionados",
-    "readMore": "Leer más",
+    "backToHome": "Volver al Inicio",
+    "relatedArticles": "Artículos Relacionados",
+    "readMore": "Leer Más",
     "articlesComingSoon": "Artículos próximamente"
   },
   "hero": {
-    "badge": "__PROTECTED_c0b0161c__ Sandbox de supervivencia de vóxeles",
-    "title": "Lucid Blocks Wiki",
-    "description": "Explora biomas oníricos, fusiona objetos con Apotheosis, construye libremente y sobrevive a criaturas extrañas en este sandbox surrealista de mundo abierto en Steam.",
-    "getFreeCodesCTA": "Explorar guía de fabricación",
-    "playOnSteamCTA": "Jugar en Steam",
+    "badge": "RPG de Aventura de Anime en Roblox",
+    "title": "Wiki de Anime Story 2",
+    "description": "Colecciona units inspiradas en anime, domina ataques poderosos, supera etapas de la historia, desbloquea nuevos worlds y usa códigos de Anime Story 2 para acelerar tu progresión en Roblox.",
+    "getFreeCodesCTA": "Obtener Códigos Gratis",
+    "playOnSteamCTA": "Jugar en Roblox",
     "stats": {
       "stat1": {
-        "value": "1,325",
-        "label": "Jugadores en línea"
+        "value": "Re-lanzamiento",
+        "label": "Versión Actual"
       },
       "stat2": {
-        "value": "1,986",
-        "label": "Pico de CCU"
+        "value": "PC/Móvil/Consola",
+        "label": "Plataformas"
       },
       "stat3": {
-        "value": "97%",
-        "label": "Reseñas positivas"
+        "value": "5",
+        "label": "Códigos Activos"
       },
       "stat4": {
-        "value": "12 de mar. de 2026",
-        "label": "Fecha de lanzamiento"
+        "value": "Anime Story Lab",
+        "label": "Desarrollador"
       }
     }
   },
   "gameFeature": {
-    "title": "Jugabilidad de Lucid Blocks",
-    "description": "Explora biomas surrealistas, fusiona objetos con Apotheosis y sobrevive a criaturas extrañas en este sandbox de vóxeles onírico en Steam."
+    "title": "Jugabilidad de Anime Story 2",
+    "description": "Invoca Units, supera etapas de la historia, optimiza Traits y avanza en la torre, incursiones y contenido de eventos en Anime Story 2."
   },
   "tools": {
-    "title": "Lucid Blocks",
-    "titleHighlight": "Recursos",
-    "subtitle": "Todo lo que necesitas para explorar, fabricar y sobrevivir en Lucid Blocks",
+    "title": "Anime Story 2",
+    "titleHighlight": "Módulos de la página de inicio",
+    "subtitle": "Salta a cada sección principal de la guía de Anime Story 2",
     "cards": [
       {
+        "icon": "Gift",
+        "anchor": "codes",
+        "title": "Codes de Anime Story 2",
+        "description": "Recompensas de Codes activos, ruta de canje y comprobaciones de actualización"
+      },
+      {
         "icon": "BookOpen",
-        "title": "Guía para principiantes",
-        "description": "Primeros pasos, exploración y progresión inicial"
+        "anchor": "beginner-guide",
+        "title": "Guía para principiantes de Anime Story 2",
+        "description": "Una ruta limpia para la primera sesión para jugadores nuevos y recurrentes"
       },
       {
-        "icon": "Sparkles",
-        "title": "Fabricación de Apotheosis",
-        "description": "Sistema de fusión libre y recetas iniciales"
+        "icon": "ListOrdered",
+        "anchor": "tier-list",
+        "title": "Tier List de Anime Story 2",
+        "description": "Selecciones de prioridad rápida para la historia, incursiones y farmeo"
       },
       {
-        "icon": "Hammer",
-        "title": "Herramientas y armas",
-        "description": "Pico de escarcha, Azrael, __PROTECTED_6a765cb2__ y más"
+        "icon": "Users",
+        "anchor": "units-guide",
+        "title": "Guía de Units de Anime Story 2",
+        "description": "Construcción de Units basada en roles y dirección de mejora"
       },
       {
-        "icon": "Package",
-        "title": "Almacenamiento e inventario",
-        "description": "Cubos de suministros, gabinetes y almacenamiento de Qualia"
+        "icon": "Shuffle",
+        "anchor": "traits-rerolls",
+        "title": "Guía de Traits y Rerolls de Anime Story 2",
+        "description": "Objetivos de Traits y planificación de recursos para rerolls"
       },
       {
-        "icon": "Home",
-        "title": "Qualia y construcción de bases",
-        "description": "Qualia personal y configuración de la base"
+        "icon": "Globe",
+        "anchor": "worlds-progression",
+        "title": "Worlds y progresión de la historia de Anime Story 2",
+        "description": "Flujo de desbloqueo y consejos de impulso etapa por etapa"
       },
       {
-        "icon": "Eye",
-        "title": "Regiones del mundo",
-        "description": "Fog Meadow, Ciénaga de la Esencia y más"
+        "icon": "Gem",
+        "anchor": "items-relics-materials",
+        "title": "Items, Relics y materiales de evolución de Anime Story 2",
+        "description": "Qué farmear, guardar y gastar para la progresión"
       },
       {
-        "icon": "AlertTriangle",
-        "title": "Criaturas y enemigos",
-        "description": "Maniquíes, arañas y cómo sobrevivir"
-      },
-      {
-        "icon": "ArrowRight",
-        "title": "Equipo de movilidad",
-        "description": "__PROTECTED_6a765cb2__, Guante planeador, __PROTECTED_163b9bec__"
-      },
-      {
-        "icon": "TrendingUp",
-        "title": "Cultivo y crecimiento",
-        "description": "Progresión de semillas y recolección de materiales"
-      },
-      {
-        "icon": "Star",
-        "title": "Mejores desbloqueos iniciales",
-        "description": "Mejoras prioritarias para la primera hora"
-      },
-      {
-        "icon": "ClipboardCheck",
-        "title": "Seguimiento de logros",
-        "description": "Los 19 logros y condiciones de Steam"
-      },
-      {
-        "icon": "MessageCircle",
-        "title": "Preguntas frecuentes del modo un jugador",
-        "description": "Preguntas sobre plataformas, precio, cooperativo e idiomas"
-      },
-      {
-        "icon": "Gamepad2",
-        "title": "Steam Deck y controles",
-        "description": "Configuración de Proton 9.0.4 y consejos para el control"
-      },
-      {
-        "icon": "Settings",
-        "title": "Ajustes y accesibilidad",
-        "description": "Ocultar manos, __PROTECTED_38625270__ y opciones de pantalla"
-      },
-      {
-        "icon": "Clock",
-        "title": "Actualizaciones y notas del parche",
-        "description": "Correcciones recientes y notas de la hoja de ruta"
-      },
-      {
-        "icon": "Shield",
-        "title": "Solución de cierres inesperados",
-        "description": "Verificación de __PROTECTED_38625270__, ruta de registros y reporte de errores"
+        "icon": "TowerControl",
+        "anchor": "tower-raids-slime-event",
+        "title": "Torre, incursiones y evento de Slime de Anime Story 2",
+        "description": "Bucles de endgame y prioridad de recompensas de eventos"
       }
     ]
   },
   "modules": {
-    "lucidBlocksBeginnerGuide": {
-      "title": "Guía para principiantes de Lucid Blocks",
-      "displayType": "steps",
-      "intro": "Comienza aprendiendo cómo se conectan la exploración, la fusión y la progresión. Lucid Blocks premia la experimentación, por lo que el progreso temprano proviene de recolectar materiales inusuales, probar combinaciones y desbloquear tu Qualia personal.",
-      "steps": [
-        {
-          "title": "Explora antes de comprometerte",
-          "description": "Camina hacia el exterior, mina bloques comunes y conserva cualquier botín extraño que encuentres. El progreso inicial se trata menos de misiones fijas y más de descubrir en qué se pueden convertir los materiales."
-        },
-        {
-          "title": "Desbloquea tu Qualia personal pronto",
-          "description": "Tu Qualia personal es uno de los hitos iniciales más importantes. Te brinda un lugar confiable para reagruparte y construir a su alrededor."
-        },
-        {
-          "title": "Usa Osmio para progresar rápido al inicio",
-          "description": "El Osmio es uno de los materiales iniciales más útiles. Una ruta inicial popular es combinar Osmio con palos para fabricar un Pico de Escarcha para minar rápido."
-        },
-        {
-          "title": "Registra las buenas fusiones",
-          "description": "Lleva un registro de las combinaciones exitosas en tu diario. Lucid Blocks tiene muchas rutas de fusión posibles, por lo que anotar los resultados útiles ahorra mucho tiempo."
-        }
-      ],
-      "quickTips": [
-        "Apotheosis no requiere una lista de recetas fija.",
-        "La generación de mundo infinito significa que moverte hacia arriba o hacia lo profundo puede revelar materiales completamente diferentes.",
-        "Las herramientas de movimiento y el equipo de utilidad se convierten en una gran mejora de calidad de vida una vez que comienzas a desbloquearlos.",
-        "Perderse al principio es normal, pero las herramientas útiles, el almacenamiento y las opciones de movimiento crecen como bola de nieve rápidamente una vez que tus primeras buenas fusiones empiezan a funcionar."
-      ]
-    },
-    "lucidBlocksApotheosisCrafting": {
-      "title": "Artesanía de Apotheosis en Lucid Blocks",
-      "displayType": "cards",
-      "intro": "Apotheosis es el sistema de fusión sin restricciones del juego. En lugar de memorizar un libro de recetas tradicional, combinas materiales, observas el resultado y construyes tu propio conocimiento de artesanía con el tiempo.",
+    "animeStory2Codes": {
+      "title": "Codes de Anime Story 2",
+      "intro": "Usa los últimos Codes de Anime Story 2 para obtener Gemas, Tokens de Traits, Orbes Secretos y recursos de progresión extra antes de comenzar largas sesiones de farmeo.",
       "cards": [
         {
-          "name": "Fusión de forma libre",
-          "description": "Apotheosis te permite fusionar diferentes objetos sin necesidad de seguir una lista de recetas fija."
+          "code": "4000ccuomg",
+          "reward": "250 Tokens de Traits y 10 Orbes Secretos",
+          "tag": "Nuevo"
         },
         {
-          "name": "Múltiples resultados útiles",
-          "description": "Diferentes materiales suelen orientarse hacia ciertos resultados. Los descubrimientos de la comunidad muestran que insumos similares pueden derivar en herramientas prácticas, almacenamiento o mejoras de combate."
+          "code": "3500ccu",
+          "reward": "200 Tokens de Traits",
+          "tag": "Nuevo"
         },
         {
-          "name": "Artesanía basada en el diario",
-          "description": "La mejor manera de aprender Apotheosis es registrar tus combinaciones exitosas. Tu diario se convertirá rápidamente en tu propia referencia de artesanía."
+          "code": "blessings",
+          "reward": "25,000 Gemas y 50 Tokens de Traits",
+          "tag": "Nuevo"
         },
         {
-          "name": "Fusiones iniciales probadas por la comunidad",
-          "description": "Ejemplos iniciales populares incluyen Osmio más Palo para un Pico de Escarcha, Palo más Apéndice de Tungsteno para Azrael, y Azrael más Magnetita para el Estoque de Zarcillo."
+          "code": "2kccuomg!",
+          "reward": "15 Estrellas Rojas, 50 Tokens de Traits, 10,000 Gemas, 500 Tokens de Slime y 15 Orbes Secretos",
+          "tag": "Activo"
         }
       ],
-      "milestones": [
-        "Fusionar un objeto",
-        "Fusionar una alimaña",
-        "Fusionar un artefacto divino"
+      "redeemTitle": "Cómo canjear Codes de Anime Story 2",
+      "redeemSteps": [
+        "Inicia Anime Story 2 en Roblox y completa el tutorial.",
+        "Presiona el botón de Codes en el lado derecho de la pantalla.",
+        "Pega un código exactamente y haz clic en Reclamar.",
+        "Vuelve a unirte después de las actualizaciones si un código no se aplica de inmediato."
       ]
     },
-    "lucidBlocksToolsAndWeapons": {
-      "title": "Herramientas y armas de Lucid Blocks",
-      "displayType": "itemCards",
-      "intro": "Lucid Blocks mezcla equipo de utilidad oficial con armas iniciales descubiertas por la comunidad. La mejor configuración suele ser una mezcla de minería rápida, travesía segura y una opción de combate confiable.",
-      "items": [
-        {
-          "name": "Pico de Escarcha",
-          "type": "Herramienta de minería",
-          "description": "Un pico inicial rápido y económico hecho de Osmio y Palo. Los jugadores lo usan para acelerar la recolección inicial de materiales."
-        },
-        {
-          "name": "Azrael",
-          "type": "Arma inicial",
-          "description": "Una ruta práctica para un arma inicial fabricada con un Palo y un Apéndice de Tungsteno."
-        },
-        {
-          "name": "Estoque de Zarcillo",
-          "type": "Arma mejorada",
-          "description": "Una continuación más fuerte creada al combinar Azrael con Magnetita. Es una de las rutas de combate inicial-media más útiles compartidas por los jugadores."
-        },
-        {
-          "name": "__PROTECTED_6a765cb2__",
-          "type": "Herramienta de movilidad",
-          "description": "Un objeto de travesía oficial que mejora enormemente el movimiento y la exploración vertical."
-        },
-        {
-          "name": "__PROTECTED_163b9bec__",
-          "type": "Herramienta de movilidad",
-          "description": "Un objeto de movimiento oficial que ayuda a cubrir terreno de forma más segura y eficiente."
-        },
-        {
-          "name": "Varita de Bola",
-          "type": "Arma de utilidad",
-          "description": "Un objeto de utilidad a distancia oficial que expande tus opciones de combate y acertijos."
-        },
-        {
-          "name": "Equipo de buceo",
-          "type": "Equipo de travesía",
-          "description": "Un objeto de utilidad oficial para llegar a áreas que de otro modo ralentizarían la exploración."
-        },
-        {
-          "name": "Explosivos",
-          "type": "Daño de utilidad",
-          "description": "Destacados oficialmente como parte del conjunto de herramientas principal y útiles para atravesar amenazas u obstáculos."
-        }
-      ]
-    },
-    "lucidBlocksStorageAndInventory": {
-      "title": "Almacenamiento e inventario de Lucid Blocks",
-      "displayType": "solutionCards",
-      "intro": "La presión del inventario comienza temprano en Lucid Blocks, por lo que construir almacenamiento debería ser uno de tus primeros objetivos. Ya destacan varias soluciones probadas por jugadores reales.",
-      "solutions": [
-        {
-          "name": "Cubo de Almacenamiento",
-          "role": "Almacenamiento tipo cofre",
-          "description": "Los Cubos de Almacenamiento son una de las soluciones prácticas más tempranas y los jugadores los tratan como el contenedor principal tipo cofre del juego."
-        },
-        {
-          "name": "Gabinete",
-          "role": "Almacenamiento de base simple",
-          "description": "Los gabinetes son otra opción de almacenamiento confirmada. Una receta inicial compartida usa 1 de Madera cortada y 1 de Cuerda."
-        },
-        {
-          "name": "Qualia personal",
-          "role": "Centro de almacenamiento a largo plazo",
-          "description": "Una vez desbloqueada, tu Qualia personal se convierte en un lugar natural para organizar materiales, fabricar en paz y expandir la configuración de tu base."
-        },
-        {
-          "name": "Seguimiento en el diario",
-          "role": "Eficiencia de inventario",
-          "description": "Registrar combinaciones útiles en tu diario reduce el desperdicio de materiales y facilita mucho la gestión del inventario."
-        }
-      ],
-      "managementTips": [
-        "Prioriza una opción de almacenamiento confiable antes de acumular botines raros.",
-        "Construye alrededor de tu Qualia personal una vez que esté disponible.",
-        "Mantén separados los materiales de artesanía, las herramientas de combate y el equipo de movimiento para que las mejoras sean más fáciles de planificar.",
-        "Usa tu diario como parte de la gestión del inventario, no solo para descubrir recetas."
-      ]
-    },
-    "lucidBlocksQualiaAndBaseBuilding": {
-      "title": "Qualia y construcción de bases en Lucid Blocks",
-      "displayType": "cards",
-      "intro": "La Qualia es uno de los hitos de progresión más importantes en Lucid Blocks. Te brinda un espacio personal para reagruparte, almacenar materiales y convertir gradualmente el progreso de exploración en una verdadera base de operaciones.",
-      "cards": [
-        {
-          "name": "Qualia personal",
-          "description": "Desbloquear una Qualia es un hito inicial que te da un lugar más confiable al cual regresar mientras exploras el mundo exterior."
-        },
-        {
-          "name": "Construcción centrada en el almacenamiento",
-          "description": "Muchos jugadores comienzan usando su Qualia como un centro de almacenamiento antes de convertirla en una base más grande con espacios organizados para artesanía y construcción."
-        },
-        {
-          "name": "Construcción creativa de hogares",
-          "description": "Lucid Blocks admite la construcción creativa, y los jugadores ya están usando los espacios de Qualia para crear casas y diseños personalizados."
-        },
-        {
-          "name": "Centro de progresión",
-          "description": "Una base sólida te ayuda a separar el botín de exploración, los materiales de artesanía, las semillas, las herramientas y el equipo de movilidad para planificar mejor tus próximas mejoras."
-        }
-      ],
-      "highlights": [
-        "Entrar en una qualia",
-        "Almacenar materiales de forma segura",
-        "Expandir de la utilidad a la decoración",
-        "Usar el espacio de la base para apoyar la artesanía y el cultivo"
-      ]
-    },
-    "lucidBlocksWorldRegions": {
-      "title": "Regiones del mundo de Lucid Blocks",
-      "displayType": "regionCards",
-      "intro": "Lucid Blocks utiliza generación de mundo infinito, por lo que los jugadores siguen descubriendo nuevos entornos y estructuras. Algunos lugares con nombre ya aparecen en los logros y en las discusiones de la comunidad.",
-      "regions": [
-        {
-          "name": "Fog Meadow",
-          "type": "Área destacada por la comunidad",
-          "description": "Fog Meadow ya es conocida entre los jugadores como un área tensa asociada con amenazas ocultas y encuentros peligrosos."
-        },
-        {
-          "name": "Línea ley de Tiamana",
-          "type": "Punto de referencia de descubrimiento",
-          "description": "La línea ley de tiamana es lo suficientemente importante como para tener su propio hito de logro, lo que la convierte en uno de los descubrimientos mundiales con nombre más claros hasta ahora."
-        },
-        {
-          "name": "Clonaqualia",
-          "type": "Espacio de construcción",
-          "description": "Los jugadores ya están usando Clonaqualia como un lugar para construir casas, almacenar materiales y experimentar con diseños más permanentes."
-        },
-        {
-          "name": "Ciénaga de Esencia",
-          "type": "Área de recolección",
-          "description": "La Ciénaga de Esencia está siendo compartida por los jugadores como una ubicación útil para recolectar recursos, especialmente para luchar contra slimes y ganar experiencia."
-        }
-      ]
-    },
-    "lucidBlocksCreaturesAndEnemies": {
-      "title": "Criaturas y enemigos de Lucid Blocks",
-      "displayType": "creatureCards",
-      "intro": "Lucid Blocks mezcla criaturas surreales con peligros reales. Las descripciones oficiales y las publicaciones de la comunidad apuntan a un mundo lleno de vida extraña, amenazas hostiles y algunos encuentros destacados que los jugadores recuerdan rápidamente.",
-      "creatures": [
-        {
-          "name": "Maniquíes",
-          "role": "Enemigo hostil",
-          "description": "Los maniquíes son uno de los enemigos nombrados oficialmente en el mundo y parte del catálogo de amenazas surreales del juego."
-        },
-        {
-          "name": "Geles blandos",
-          "role": "Enemigo hostil",
-          "description": "Los geles blandos son otro tipo de enemigo nombrado oficialmente y ayudan a definir el extraño estilo biológico del juego."
-        },
-        {
-          "name": "Seres de dimensiones superiores",
-          "role": "Enemigo hostil",
-          "description": "Estos seres se presentan como parte del catálogo de enemigos más abstractos e inquietantes del mundo."
-        },
-        {
-          "name": "Arañas colosales",
-          "role": "Amenaza mayor",
-          "description": "Las arañas son uno de los enemigos más temidos de inmediato en las discusiones de la comunidad y son claramente un peligro memorable."
-        },
-        {
-          "name": "__PROTECTED_26ee183b__",
-          "role": "Criatura con nombre",
-          "description": "__PROTECTED_26ee183b__ es lo suficientemente notable como para tener su propio logro, lo que lo convierte en uno de los encuentros con criaturas nombradas más claros del juego."
-        },
-        {
-          "name": "Alimañas adorables",
-          "role": "Criatura interactuable",
-          "description": "Las alimañas no solo son parte de la progresión de fusión, también se les puede cambiar el nombre, dándoles un papel más personal que a los enemigos estándar."
-        },
-        {
-          "name": "Criatura blasfema",
-          "role": "Amenaza de élite",
-          "description": "La criatura blasfema está vinculada a un logro de combate dedicado, lo que la marca como un encuentro enemigo significativo."
-        }
-      ]
-    },
-    "lucidBlocksMobilityGear": {
-      "title": "Equipo de movilidad de Lucid Blocks",
-      "displayType": "itemCards",
-      "intro": "Las mejoras de movimiento son uno de los mayores saltos en la calidad de vida en Lucid Blocks. Una vez que desbloqueas tus primeras herramientas de travesía, la exploración se vuelve más rápida, segura y mucho más gratificante.",
-      "items": [
-        {
-          "name": "__PROTECTED_6a765cb2__",
-          "type": "Herramienta de travesía",
-          "description": "El gancho es uno de los hitos de movimiento más claros del juego y tiene su propio logro dedicado."
-        },
-        {
-          "name": "Guante planeador",
-          "type": "Movilidad aérea",
-          "description": "El guante planeador permite un viaje mucho más fluido y es otro hito importante de progresión con su propio logro."
-        },
-        {
-          "name": "__PROTECTED_163b9bec__",
-          "type": "Herramienta de travesía",
-          "description": "Los planeadores abeja se destacan oficialmente como parte del conjunto de herramientas de movimiento del juego para cubrir terreno de manera más eficiente."
-        },
-        {
-          "name": "Varita de Bola",
-          "type": "Equipo de utilidad",
-          "description": "Las varitas de bola son una de las herramientas especiales destacadas oficialmente y expanden la forma en que te mueves o interactúas con el mundo."
-        },
-        {
-          "name": "Equipo de buceo",
-          "type": "Equipo de exploración",
-          "description": "El equipo de buceo figura oficialmente como parte del conjunto de utilidad principal para llegar a áreas que de otro modo serían más difíciles de explorar."
-        },
-        {
-          "name": "Explosivos",
-          "type": "Daño de utilidad",
-          "description": "Los explosivos están destacados oficialmente y vinculados a un hito de logro, lo que los hace parte de la progresión de utilidad principal del juego."
-        }
-      ],
-      "unlockMilestones": [
-        "Dominar un gancho",
-        "Volar con el guante planeador",
-        "Empuñar una varita de proyectiles",
-        "Empuñar un explosivo"
-      ]
-    },
-    "lucidBlocksFarmingAndGrowth": {
-      "title": "Cultivo y crecimiento en Lucid Blocks",
-      "displayType": "mixedCards",
-      "intro": "El crecimiento es parte de la progresión real en Lucid Blocks. El cultivo no se trata solo de plantar y cosechar, sino también de establecer rutas de materiales repetibles que mantengan el flujo de tus herramientas, armas y opciones de artesanía.",
-      "sections": [
-        {
-          "name": "Progresión de semillas",
-          "description": "Plantar y fertilizar semillas es un hito real en el juego, y cosechar una nuez completamente crecida es parte de la misma ruta de crecimiento."
-        },
-        {
-          "name": "Recolección de materiales",
-          "description": "Un ciclo práctico de recolección inicial es crear Cápsulas de Mercurio, que generan pequeños slimes que sueltan zarcillos y viscosidad para materiales de artesanía repetibles."
-        },
-        {
-          "name": "Sustento de herramientas",
-          "description": "La recolección de recursos se vuelve mucho más fuerte una vez que puedes reunir consistentemente Osmio, fragmentos de vidrio, plantas y materiales de slime para artesanías posteriores."
-        },
-        {
-          "name": "Rutina de base",
-          "description": "La mejor configuración de cultivo apoya más que solo la comida. Debería abastecer tu almacenamiento, herramientas de movimiento, mejoras de armas y futuros experimentos de fusión."
-        }
-      ],
-      "growthMilestones": [
-        "Fertilizar una semilla",
-        "Cosechar una nuez completamente crecida",
-        "Crear ciclos de materiales repetibles",
-        "Convertir el cultivo en progresión a largo plazo"
-      ]
-    },
-    "lucidBlocksBestEarlyUnlocks": {
-      "title": "Mejores desbloqueos iniciales de Lucid Blocks",
-      "displayType": "priorityCards",
-      "intro": "Los desbloqueos iniciales más fuertes son aquellos que mejoran la seguridad, el almacenamiento y el movimiento. En Lucid Blocks, unas pocas mejoras prácticas pueden hacer que el resto del juego sea mucho más fluido.",
-      "priorities": [
-        {
-          "name": "Qualia personal",
-          "priority": "Esencial",
-          "description": "Tan pronto como obtengas acceso a tu Qualia personal, tu partida se volverá mucho más estable. Actúa como un centro confiable para el almacenamiento, la construcción y el reagrupamiento."
-        },
-        {
-          "name": "Pico de Escarcha",
-          "priority": "Muy alta",
-          "description": "Una herramienta de minería inicial rápida y barata hecha de Osmio y Palo. Es una de las mejoras más útiles para acelerar la recolección inicial de recursos."
-        },
-        {
-          "name": "Cubo de Almacenamiento",
-          "priority": "Muy alta",
-          "description": "La presión del inventario comienza pronto, por lo que obtener tu primer contenedor confiable tipo cofre es una mejora importante de calidad de vida."
-        },
-        {
-          "name": "__PROTECTED_6a765cb2__",
-          "priority": "Alta",
-          "description": "El gancho es uno de los hitos de movimiento más claros del juego y rápidamente hace que la exploración sea más rápida y segura."
-        },
-        {
-          "name": "Guante planeador",
-          "priority": "Alta",
-          "description": "El guante planeador añade otro gran impulso a la movilidad y hace que el movimiento a larga distancia sea mucho más eficiente."
-        },
-        {
-          "name": "Varita de proyectiles o bombas",
-          "priority": "Alta",
-          "description": "Una herramienta a distancia o una opción explosiva te brinda una respuesta más segura ante enemigos peligrosos y encuentros tipo desafío."
-        }
-      ]
-    },
-    "lucidBlocksAchievementTracker": {
-      "title": "Seguimiento de logros de Lucid Blocks",
-      "displayType": "achievementGrid",
-      "intro": "Lucid Blocks tiene actualmente 19 logros de Steam, y se dividen naturalmente en progresión de exploración, artesanía, movilidad, combate y crecimiento.",
-      "groups": [
-        {
-          "name": "Exploración",
-          "achievements": [
-            {
-              "title": "__PROTECTED_c973d4a3__ α",
-              "description": "Entrar en una qualia."
-            },
-            {
-              "title": "__PROTECTED_c973d4a3__ γ",
-              "description": "Descubrir una línea ley de tiamana."
-            },
-            {
-              "title": "__PROTECTED_c973d4a3__ δ",
-              "description": "Superar un desafío de tiamana."
-            },
-            {
-              "title": "__PROTECTED_c973d4a3__ ε",
-              "description": "Logro oculto."
-            }
-          ]
-        },
-        {
-          "name": "Artesanía e invocación",
-          "achievements": [
-            {
-              "title": "Apotheosis α",
-              "description": "Fusionar un objeto."
-            },
-            {
-              "title": "Apotheosis β",
-              "description": "Fusionar una alimaña."
-            },
-            {
-              "title": "Apotheosis γ",
-              "description": "Fusionar un artefacto divino."
-            },
-            {
-              "title": "Arcángel β",
-              "description": "Invoca tu fe."
-            }
-          ]
-        },
-        {
-          "name": "Movilidad y utilidad",
-          "achievements": [
-            {
-              "title": "Virtud α",
-              "description": "Volar con el guante planeador."
-            },
-            {
-              "title": "Virtud β",
-              "description": "Dominar un gancho."
-            },
-            {
-              "title": "Arcángel α",
-              "description": "Empuñar una varita de proyectiles."
-            },
-            {
-              "title": "Arcángel γ",
-              "description": "Empuñar un explosivo."
-            }
-          ]
-        },
-        {
-          "name": "Combate y criaturas",
-          "achievements": [
-            {
-              "title": "Masacre de __PROTECTED_26ee183b__",
-              "description": "Derrotar osos burbuja inocentes."
-            },
-            {
-              "title": "Arcángel δ",
-              "description": "Eliminar una criatura blasfema."
-            },
-            {
-              "title": "__PROTECTED_c973d4a3__ β",
-              "description": "Morir."
-            },
-            {
-              "title": "Dominio γ",
-              "description": "Cambiar el nombre a una alimaña adorable."
-            }
-          ]
-        },
-        {
-          "name": "Crecimiento y cultivo",
-          "achievements": [
-            {
-              "title": "Dominio α",
-              "description": "Fertilizar una semilla."
-            },
-            {
-              "title": "Dominio β",
-              "description": "Cosechar una nuez completamente crecida."
-            },
-            {
-              "title": "Dominio δ",
-              "description": "Logro oculto."
-            }
-          ]
-        }
-      ]
-    },
-    "lucidBlocksSingleplayerAndPlatformFAQ": {
-      "title": "Preguntas frecuentes sobre un solo jugador y plataformas de Lucid Blocks",
-      "displayType": "accordion",
-      "intro": "Estas son las preguntas principales sobre plataformas y acceso que los jugadores suelen hacer antes de comprar Lucid Blocks.",
-      "faqs": [
-        {
-          "question": "¿Es Lucid Blocks para un solo jugador?",
-          "answer": "Sí. Lucid Blocks es un juego para un solo jugador."
-        },
-        {
-          "question": "¿Está planeado el multijugador o cooperativo?",
-          "answer": "No. No se planea multijugador para el lanzamiento ni para futuras actualizaciones."
-        },
-        {
-          "question": "¿Dónde puedo jugar Lucid Blocks?",
-          "answer": "Actualmente está disponible en Steam para Windows."
-        },
-        {
-          "question": "¿Cuánto cuesta Lucid Blocks?",
-          "answer": "$9.99 en Steam."
-        },
-        {
-          "question": "¿Lucid Blocks es compatible con controles?",
-          "answer": "Sí, pero no se recomienda jugar con control porque los menús no están diseñados para ello."
-        },
-        {
-          "question": "¿Lucid Blocks funciona en Steam Deck?",
-          "answer": "Sí. Proton 9.0 o 9.0.4 es la configuración recomendada habitualmente para Steam Deck."
-        },
-        {
-          "question": "¿Lucid Blocks funciona en Linux?",
-          "answer": "Sí. Se informa que Proton 9.0 funciona bien para Linux y Steam Deck."
-        },
-        {
-          "question": "¿Habrá soporte para Mac o Android?",
-          "answer": "Es posible que sean compatibles en el futuro, pero no son plataformas de lanzamiento actuales."
-        },
-        {
-          "question": "¿Lucid Blocks tiene traducciones?",
-          "answer": "No. Actualmente no hay traducciones planeadas."
-        },
-        {
-          "question": "¿Lucid Blocks seguirá recibiendo actualizaciones?",
-          "answer": "Sí. Se planean algunas actualizaciones de contenido después del lanzamiento, pero no pretenden continuar con un calendario regular indefinido."
-        }
-      ]
-    },
-    "lucidBlocksSteamDeckAndController": {
-      "title": "Lucid Blocks en Steam Deck y controles",
-      "displayType": "accordion",
-      "intro": "Lucid Blocks puede ejecutarse en Steam Deck, pero la configuración predeterminada puede necesitar ajustes. El teclado y el mouse siguen siendo la opción más fluida para los menús y el juego en general.",
-      "faqs": [
-        {
-          "question": "¿Lucid Blocks funciona en Steam Deck?",
-          "answer": "Sí. Proton 9.0 funciona bien, y Proton 9.0.4 es una solución compartida habitualmente para problemas en Steam Deck."
-        },
-        {
-          "question": "¿Qué debo hacer si los controles de Steam Deck no funcionan?",
-          "answer": "Fuerza la compatibilidad y cambia el juego a Proton 9.0.4. Es posible que la configuración predeterminada no acepte correctamente la entrada del control."
-        },
-        {
-          "question": "¿Lucid Blocks es compatible con controles?",
-          "answer": "Sí, pero no se recomienda jugar con control porque los menús del juego no están diseñados para ello."
-        },
-        {
-          "question": "¿Es posible el soporte para Linux?",
-          "answer": "Sí. Se informa que Proton 9.0 funciona bien para Linux y Steam Deck."
-        },
-        {
-          "question": "¿Cuál es la mejor configuración de entrada?",
-          "answer": "El teclado y el mouse son la opción más fluida para la navegación por los menús y el juego general momento a momento."
-        }
-      ]
-    },
-    "lucidBlocksSettingsAndAccessibility": {
-      "title": "Ajustes y accesibilidad de Lucid Blocks",
-      "displayType": "settingCards",
-      "intro": "Lucid Blocks ya cuenta con algunos ajustes prácticos y notas de compatibilidad que son importantes de inmediato cuando los jugadores inician el juego por primera vez.",
-      "settings": [
-        {
-          "name": "Ajustes de pantalla",
-          "type": "Opción de comodidad",
-          "description": "Los ajustes de pantalla incluyen una opción que permite a los jugadores ocultar las manos en pantalla."
-        },
-        {
-          "name": "Compatibilidad de gráficos",
-          "type": "Requisito del sistema",
-          "description": "Se requiere soporte de __PROTECTED_38625270__ para que los gráficos se rendericen correctamente. Los sistemas sin __PROTECTED_38625270__ pueden sufrir cierres inesperados y errores gráficos graves."
-        },
-        {
-          "name": "Preferencia de entrada",
-          "type": "Configuración de control",
-          "description": "Existe soporte para controles, pero el teclado y el mouse brindan una experiencia más fluida porque los menús no están diseñados para el uso de controles."
-        },
-        {
-          "name": "Soporte de idiomas",
-          "type": "Localización",
-          "description": "La configuración actual es solo en inglés y no hay traducciones planeadas en este momento."
-        }
-      ]
-    },
-    "lucidBlocksUpdatesAndPatchNotes": {
-      "title": "Actualizaciones y notas del parche de Lucid Blocks",
-      "displayType": "timeline",
-      "intro": "Lucid Blocks ya está recibiendo correcciones rápidas post-lanzamiento y pequeñas actualizaciones de usabilidad.",
-      "entries": [
-        {
-          "title": "Actualización 2.8.2",
-          "type": "Actualización de IU",
-          "description": "Se cambió el nombre de \"awaken\" (despertar) a \"exit\" (salir) en el menú principal."
-        },
-        {
-          "title": "Pequeño parche para cierres al iniciar",
-          "type": "Hotfix",
-          "description": "Se lanzó un parche dedicado para los jugadores cuyo juego se cerraba inesperadamente al iniciar."
-        },
-        {
-          "title": "Soporte de contenido post-lanzamiento",
-          "type": "Nota de hoja de ruta",
-          "description": "Se planean algunas actualizaciones de contenido después del lanzamiento, pero no pretenden continuar con un calendario regular indefinido."
-        }
-      ]
-    },
-    "lucidBlocksCrashFixAndTroubleshooting": {
-      "title": "Solución de cierres inesperados y solución de problemas de Lucid Blocks",
-      "displayType": "steps",
-      "intro": "La mayoría de los problemas inmediatos de inicio y cierres deben revisarse en un orden sencillo: nivel de parche, soporte de gráficos, compatibilidad de plataforma y registros.",
+    "animeStory2BeginnerGuide": {
+      "title": "Guía para principiantes de Anime Story 2",
+      "intro": "Esta ruta de Anime Story 2 mantiene la progresión inicial simple: obtén recursos gratuitos primero, construye un equipo principal y luego retrasa los rerolls costosos hasta que tu plantilla se estabilice.",
       "steps": [
         {
-          "title": "Instala el último hotfix para cierres inesperados",
-          "description": "Si el juego se cierra al iniciar, actualiza primero y prueba de nuevo con el parche más reciente para cierres al inicio."
+          "title": "Termina el tutorial y desbloquea los menús",
+          "description": "Completa el flujo de introducción antes de gastar Gemas o tokens de reroll."
         },
         {
-          "title": "Verifica el soporte de __PROTECTED_38625270__",
-          "description": "Lucid Blocks requiere soporte de __PROTECTED_38625270__. Los sistemas sin __PROTECTED_38625270__ pueden sufrir cierres inesperados o problemas graves de renderizado."
+          "title": "Canjea todos los Codes activos primero",
+          "description": "Consigue Gemas y Tokens de Traits iniciales antes de realizar invocaciones."
         },
         {
-          "title": "Usa Proton 9.0.4 en Steam Deck",
-          "description": "Si la entrada o el comportamiento de inicio en Steam Deck fallan, fuerza la compatibilidad y cambia a Proton 9.0.4."
+          "title": "Construye un escuadrón principal",
+          "description": "Equipa tus cinco Units más fuertes y enfócate en la sinergia."
         },
         {
-          "title": "Recopila registros de cierres (logs)",
-          "description": "Abre Ejecutar de Windows, pega %APPDATA%, ve a lucid blocks/logs y reúne los archivos .txt para solucionar el problema."
+          "title": "Mejora a un carry primero",
+          "description": "Concentra los recursos de mejora en lugar de repartirlos entre demasiados personajes."
         },
         {
-          "title": "Reporta el problema correctamente",
-          "description": "Comparte los registros y los detalles del dispositivo a través del foro oficial de reportes de errores en Discord o en la página de la comunidad de Steam."
+          "title": "Farmea misiones y completa etapas diariamente",
+          "description": "Usa las misiones diarias y la progresión de la historia para reponer Gemas y materiales de mejora."
+        }
+      ]
+    },
+    "animeStory2TierList": {
+      "title": "Tier List de Anime Story 2",
+      "intro": "Usa este resumen de la Tier List de Anime Story 2 para priorizar inversiones y decisiones de banner en la historia, raids y contenido de farmeo a largo plazo.",
+      "tiers": [
+        {
+          "name": "S+ Núcleo Meta",
+          "units": [
+            "Roku (Ultra)",
+            "Bald",
+            "Gojin (Christmas)",
+            "Vogita (Purple)"
+          ]
+        },
+        {
+          "name": "S Núcleo Confiable",
+          "units": [
+            "Shadow Knight",
+            "Ant King",
+            "Dark Assassin",
+            "Destruction"
+          ]
+        },
+        {
+          "name": "A Núcleo de Progresión",
+          "units": [
+            "Levan",
+            "Flamingo",
+            "Spirit Brawler",
+            "Ruki"
+          ]
+        }
+      ]
+    },
+    "animeStory2UnitsGuide": {
+      "title": "Guía de Unidades de Anime Story 2",
+      "intro": "El valor de las unidades de Anime Story 2 depende de la cobertura de roles, la velocidad de escalado y el costo de mejora, no solo de las etiquetas de rareza.",
+      "cards": [
+        {
+          "name": "Unidades Carry DPS",
+          "description": "Usa un carry de alto daño para asegurar victorias de etapa y eliminar jefes."
+        },
+        {
+          "name": "Unidades de Apoyo y Utilidad",
+          "description": "Prioriza aliados que añadan primer golpe, curación, aumento de crítico o marcas de enemigo."
+        },
+        {
+          "name": "Unidades Tanque",
+          "description": "Un espacio frontal estable evita reinicios en las carreras de torre y asalto."
+        },
+        {
+          "name": "Unidades Legendarias Puente",
+          "description": "Las selecciones Legendarias fuertes pueden llevarte mientras esperas las mejoras Míticas y Secretas."
+        }
+      ]
+    },
+    "animeStory2TraitsRerollsGuide": {
+      "title": "Guía de Rasgos y Rerolls de Anime Story 2",
+      "intro": "Los Rasgos son mejoras pasivas para las unidades, y cada unidad puede tener un rasgo a la vez. Usa Fichas de Rasgo en el NPC de Mejora del lobby para rerollear y obtener bonificaciones de daño, supervivencia o utilidad más fuertes.",
+      "traits": [
+        {
+          "name": "Monarch",
+          "description": "Tirada de alto nivel con grandes aumentos de crítico, salud y daño. Mantenlo en cada carry a largo plazo."
+        },
+        {
+          "name": "Ethereal and Berserk",
+          "description": "Rasgos de daño de alto valor para carries de DPS puros que necesitan limpiar etapas y jefes más rápido."
+        },
+        {
+          "name": "Solar and Cosmic",
+          "description": "Rasgos equilibrados que añaden tanto supervivencia como daño para unidades bruiser o híbridas."
+        },
+        {
+          "name": "Dead Eye and Sharp Shooter",
+          "description": "Rasgos enfocados en el crítico para unidades que escalan con la probabilidad de crítico y el daño crítico."
+        },
+        {
+          "name": "Impair III and Keen III",
+          "description": "Mantenimientos fuertes de nivel medio mientras se farmean rasgos raros con Fichas de Rasgo limitadas."
+        },
+        {
+          "name": "Vigor and Tank",
+          "description": "Opciones de supervivencia útiles para unidades de primera línea, pero rerollea en los carries principales cuando sea posible."
+        }
+      ]
+    },
+    "animeStory2WorldsProgression": {
+      "title": "Mundos y Progresión de la Historia de Anime Story 2",
+      "intro": "Hay 11 mundos de historia y cada uno tiene 7 etapas. Avanza al mundo más nuevo que puedas superar, luego regresa a las granjas de la Etapa VII para obtener fragmentos, creación de Relics y materiales de evolución.",
+      "steps": [
+        {
+          "title": "Green Planet",
+          "description": "Poder de Combate 55 a 1.33K. Farmea la Etapa VII para obtener Fragmentos Verdes y materiales de evolución temprana como Scantron."
+        },
+        {
+          "title": "Desert",
+          "description": "Poder de Combate 2.05K a 6.07K. La Etapa VII suelta Fragmentos Naranjas para la creación de Relics Kunai."
+        },
+        {
+          "title": "Double Dungeon",
+          "description": "Poder de Combate 6.8K a 13.3K. La Etapa VII suelta Fragmentos Azules para la creación de Relics Elixir."
+        },
+        {
+          "title": "Titan City",
+          "description": "Poder de Combate 14K a 18.8K. La Etapa VII suelta Fragmentos Grises para la creación de Relics Grapple Hook."
+        },
+        {
+          "title": "Beach Harbor",
+          "description": "Poder de Combate 19K a 33.2K. La Etapa VII suelta Fragmentos Amarillos para la creación de Relics Strawhat."
+        },
+        {
+          "title": "Gold District",
+          "description": "Poder de Combate 34K a 44.1K. La Etapa VII suelta Fragmentos Rojos para la creación de Relics Katana."
+        },
+        {
+          "title": "Soul Haven",
+          "description": "Poder de Combate 35.4K a 50.9K. Trátalo como prioridad de progresión antes de un farmeo intenso."
+        },
+        {
+          "title": "Realm Seven",
+          "description": "Poder de Combate 59K a 64.8K. Farmea para obtener drops de unidades y materiales de evolución relacionados."
+        },
+        {
+          "title": "Snow Village",
+          "description": "Poder de Combate 60.8K a 99.3K. La Etapa VII suelta Fragmentos Púrpura para la creación de Flame Sword."
+        },
+        {
+          "title": "Heroic City",
+          "description": "Poder de Combate 78.6K a 171K. La Etapa VII suelta Fragmentos Marrones para la creación de Baseball Bat."
+        },
+        {
+          "title": "Rome",
+          "description": "Poder de Combate 63K a 170K. La Etapa VII puede soltar Unbreaking Diamond para la evolución de Golden Wind."
+        }
+      ]
+    },
+    "animeStory2ItemsRelicsMaterials": {
+      "title": "Anime Story 2 Objetos, Reliquias y Materiales de Evolución",
+      "intro": "Usa este mapa de recursos de Anime Story 2 para decidir qué farmear primero para mejoras, rerolls, creación de reliquias, ascensión y progreso de evolución.",
+      "cards": [
+        {
+          "name": "Fichas de Rasgo y Chips de Estadísticas",
+          "description": "Principales recursos de reroll de la Tienda de Monedas, Codes, misiones y desafíos. Prioriza para unidades principales a largo plazo."
+        },
+        {
+          "name": "Tickets de Ascenso",
+          "description": "Úsalos principalmente en unidades Legendarias, Míticas, Secretas o Exclusivas de alto valor."
+        },
+        {
+          "name": "Fragmentos de Etapa VII",
+          "description": "Los Fragmentos Verdes, Naranjas, Azules, Grises, Amarillos, Rojos, Morados y Marrones potencian la creación de reliquias en todos los niveles de progresión."
+        },
+        {
+          "name": "Materiales de Evolución de la Tienda de Raids",
+          "description": "Dirígete a raids específicas para Sangetsu Blade, Shirayuki Core, Raven Feather, Ki Orb, Earring, Rose y objetos de evolución similares."
+        },
+        {
+          "name": "Objetos de Evolución Estelar",
+          "description": "Las Estrellas Verdes, Amarillas, Moradas, Rojas y Arcoíris son cuellos de botella de evolución clave de desafíos y tiendas."
+        },
+        {
+          "name": "Consumibles",
+          "description": "Usa pociones de Drops, Luck y Coins justo antes de las sesiones de farmeo para aumentar la eficiencia de la producción."
+        },
+        {
+          "name": "Reliquias de Juego Temprano y Medio",
+          "description": "Dragon Ball, Kunai, Elixir, Grapple Hook, Strawhat y Katana proporcionan aumentos de estadísticas limpios mientras escalas Worlds de historia."
+        },
+        {
+          "name": "Reliquias de Juego Tardío e Híbridas",
+          "description": "Flame Sword, Baseball Bat, Demon Ring, Coal y Candy apoyan las builds de crítico, daño, salud y defensa del endgame."
+        }
+      ]
+    },
+    "animeStory2TowerRaidsSlimeEvent": {
+      "title": "Anime Story 2 Raids de Torre y Evento de Slime",
+      "intro": "Después de la progresión de la historia, la Torre, las Raids y el evento de Slime son las principales rutas para rerolls, fichas de raid, materiales de evolución y moneda de evento.",
+      "cards": [
+        {
+          "name": "Torre de Ascensión",
+          "description": "Alcanza hitos de bucle para rerolls y oportunidades de unidades limitadas. La dificultad aumenta cerca de cada punto final del ciclo de 250 pisos."
+        },
+        {
+          "name": "Raids y Tienda de Raids",
+          "description": "Farmea la raid vinculada a tu evolución objetivo y gasta fichas en materiales específicos en lugar de proyectos divididos."
+        },
+        {
+          "name": "Evento Apocalipsis Slime",
+          "description": "Farmea Fichas de Slime para el valor de la tienda del evento, luego elige entre objetos de mejora y progreso de banner exclusivo."
+        },
+        {
+          "name": "Orden de Farmeo Recomendado",
+          "description": "Avanza en la historia, farmea los fragmentos de Etapa VII necesarios, completa los hitos de la Torre, ejecuta las raids objetivo y luego optimiza el gasto de fichas de evento."
         }
       ]
     }
   },
   "faq": {
-    "title": "Preguntas",
-    "titleHighlight": "frecuentes",
-    "subtitle": "Todo lo que necesitas saber sobre Lucid Blocks",
+    "title": "Anime Story 2",
+    "titleHighlight": "FAQ",
+    "subtitle": "Respuestas rápidas para la progresión de Anime Story 2, Codes y bucles de eventos",
     "questions": [
       {
-        "question": "¿Es Lucid Blocks un juego para un solo jugador?",
-        "answer": "Sí. Lucid Blocks es un juego exclusivamente para un solo jugador, sin planes para multijugador o cooperativo."
+        "question": "¿Con qué frecuencia se actualizan los Codes de Anime Story 2?",
+        "answer": "Los Codes de Anime Story 2 suelen aparecer alrededor de actualizaciones, hitos y anuncios de relanzamiento."
       },
       {
-        "question": "¿Qué es el sistema Apotheosis en Lucid Blocks?",
-        "answer": "Apotheosis es el sistema de creación por fusión de forma libre de Lucid Blocks. En lugar de seguir recetas fijas, combinas materiales y descubres tus propias rutas de creación."
+        "question": "¿Qué debo hacer primero en Anime Story 2?",
+        "answer": "Completa el tutorial, canjea Codes, forma un equipo central de cinco Units, luego avanza en los Worlds de historia y las misiones diarias."
       },
       {
-        "question": "¿Dónde puedo jugar Lucid Blocks?",
-        "answer": "Lucid Blocks está disponible actualmente en Steam para Windows. El soporte para Linux y Steam Deck está disponible a través de Proton 9.0."
+        "question": "¿Qué modo ofrece las mejores recompensas de juego tardío en Anime Story 2?",
+        "answer": "La Torre, las raids y los ciclos de eventos proporcionan los bucles de recompensa a largo plazo más fuertes cuando tu lista principal es estable."
       },
       {
-        "question": "¿Cuánto cuesta Lucid Blocks?",
-        "answer": "Lucid Blocks cuesta $9.99 en Steam."
-      },
-      {
-        "question": "¿Lucid Blocks es compatible con controles?",
-        "answer": "Sí, pero no se recomienda jugar con control porque los menús no están diseñados para ello. El teclado y el mouse son la opción más fluida."
-      },
-      {
-        "question": "¿Recibirá actualizaciones Lucid Blocks?",
-        "answer": "Sí. Se planean algunas actualizaciones de contenido después del lanzamiento, pero no se pretende que continúen con un calendario regular indefinido."
+        "question": "¿Cuándo debo rerollear Traits en Anime Story 2?",
+        "answer": "Rerollea después de confirmar que una Unit es parte de tu equipo a largo plazo, para que las Fichas de Rasgo no se desperdicien."
       }
     ]
   },
   "cta": {
-    "title": "¿Listo para explorar Lucid Blocks?",
-    "description": "¡Únete a la comunidad de Lucid Blocks en Discord para ver guías, actualizaciones y discusiones!",
-    "joinCommunity": "Únete a Discord",
-    "joinGame": "Juega en Steam"
+    "title": "¿Listo para dominar Anime Story 2?",
+    "description": "Entra en Anime Story 2 en Roblox y únete a la comunidad para obtener Codes, actualizaciones y estrategias de equipo.",
+    "joinCommunity": "Unirse al grupo de Anime Story 2",
+    "joinGame": "Jugar Anime Story 2 en Roblox"
   },
   "footer": {
-    "title": "Wiki de Lucid Blocks",
-    "description": "Tu centro completo de recursos para la fabricación, biomas, criaturas, logros y guías de supervivencia de Lucid Blocks.",
+    "title": "Wiki de Anime Story 2",
+    "description": "Tu centro de recursos completo para Codes, Units, Traits, Relics, Worlds y guías de progresión de Anime Story 2.",
     "resources": "Recursos",
     "community": "Comunidad",
     "legal": "Legal",
-    "discord": "Discord",
-    "twitter": "X / Twitter",
-    "steamCommunity": "Comunidad de Steam",
-    "steamStore": "Tienda de Steam",
+    "discord": "Grupo de Roblox",
+    "twitter": "YouTube",
+    "robloxCommunity": "Juego de Roblox",
+    "robloxPlatform": "Plataforma Roblox",
     "about": "Acerca de",
-    "privacy": "Política de privacidad",
-    "terms": "Términos de servicio",
+    "privacy": "Política de Privacidad",
+    "terms": "Términos de Servicio",
     "copyrightNotice": "Derechos de autor",
-    "copyright": "© 2026 Wiki de Lucid Blocks. No afiliada con los desarrolladores de Lucid Blocks.",
+    "copyright": "© 2026 Wiki de Anime Story 2. No afiliado con Anime Story Lab ni Roblox Corporation.",
     "disclaimer": "Sitio web de recursos no oficial creado por fans."
   },
   "pages": {
-    "guides": {
-      "title": "Guías de Lucid Blocks",
-      "description": "Guías completas de juego, desde conceptos básicos para principiantes hasta estrategias avanzadas de Apotheosis. Domina la supervivencia y la fabricación.",
-      "metaTitle": "Guías de Lucid Blocks - Estrategias de principiante a avanzado",
-      "metaDescription": "Guías completas de Lucid Blocks que cubren consejos para principiantes, el sistema Apotheosis, estrategias de supervivencia y tácticas expertas para dominar este sandbox surrealista.",
-      "categoryLabel": "GUÍAS DEL JUEGO",
-      "whatIs": "¿Qué son las guías?",
-      "whatIsDescription": "Guías exhaustivas que cubren mecánicas de juego, estrategias de supervivencia y el sistema de fabricación Apotheosis. Aprende todo, desde los primeros pasos hasta técnicas avanzadas.",
-      "why": "¿Por qué leer las guías?",
+    "guide": {
+      "title": "Guía de Anime Story 2",
+      "description": "Rutas de progresión principales, puntos de control para principiantes y prioridades de construcción de cuenta desde el inicio hasta el final del juego.",
+      "metaTitle": "Guía de Anime Story 2 - Progresión de Principiante a Endgame",
+      "metaDescription": "Sigue la guía completa de Anime Story 2 para el orden de progresión, crecimiento del equipo, prioridades de etapas y rutas de mejora prácticas.",
+      "categoryLabel": "GUÍA DE PROGRESIÓN",
+      "whatIs": "¿Qué es la categoría de Guía de Anime Story 2?",
+      "whatIsDescription": "Esta categoría cubre manuales de progresión completos que incluyen rutas iniciales, ritmo de avance en Worlds, prioridades de mapas y planificación de novato a profesional.",
+      "why": "¿Por qué leer los artículos de la guía de Anime Story 2?",
       "whySteps": {
-        "step1Title": "Aprende las mecánicas principales",
-        "step1Description": "Entiende el sistema Apotheosis y evita errores comunes de principiante",
-        "step2Title": "Progresión rápida",
-        "step2Description": "Sigue caminos probados para sobrevivir y prosperar en este mundo surrealista",
-        "step3Title": "Domina las estrategias",
-        "step3Description": "Desarrolla tácticas avanzadas para la exploración y la fabricación"
+        "step1Title": "Comienza con una dirección clara",
+        "step1Description": "Usa rutas estructuradas para principiantes para evitar mejoras sin salida y rerolls desperdiciados.",
+        "step2Title": "Avanza en los Worlds más rápido",
+        "step2Description": "Sigue un ritmo de progresión probado para las etapas de la historia, puntos de control de jefes y tiempos de recursos.",
+        "step3Title": "Construye valor de cuenta a largo plazo",
+        "step3Description": "Prioriza las mejoras que mantienen su valor a través de las transiciones del juego medio y el endgame."
       },
-      "featured": "Destacado y esencial",
-      "all": "Todas las guías"
+      "featured": "Destacados y Esenciales",
+      "all": "Todos los artículos de la guía"
     },
-    "crafting": {
-      "title": "Fabricación en Lucid Blocks",
-      "description": "Domina el sistema de fusión Apotheosis con mecánicas de esencia, recetas y estrategias de fabricación para objetos poderosos.",
-      "metaTitle": "Fabricación en Lucid Blocks - Sistema Apotheosis y recetas",
-      "metaDescription": "Domina el sistema de fabricación Apotheosis de Lucid Blocks. Aprende mecánicas de esencia, recetas de fusión y estrategias para crear herramientas y armas poderosas.",
-      "categoryLabel": "SISTEMA DE FABRICACIÓN",
-      "whatIs": "¿Qué es la fabricación?",
-      "whatIsDescription": "El sistema Apotheosis es una mecánica de fusión única impulsada por esencias donde combinas hasta seis objetos para descubrir nuevas recetas. Sin menús de fabricación fijos: la experimentación es la clave.",
-      "why": "¿Por qué dominar la fabricación?",
+    "codes": {
+      "title": "Códigos de Anime Story 2",
+      "description": "Códigos de canje activos para recompensas gratuitas, además de pasos de uso de códigos y seguimiento de actualizaciones.",
+      "metaTitle": "Códigos de Anime Story 2 - Recompensas Activas y Pasos de Canje",
+      "metaDescription": "Encuentra códigos de Anime Story 2 que funcionan, instrucciones de canje y detalles de recompensas para una progresión más rápida de la cuenta.",
+      "categoryLabel": "CÓDIGOS DE CANJE",
+      "whatIs": "¿Qué es la categoría de Códigos de Anime Story 2?",
+      "whatIsDescription": "Esta categoría rastrea los códigos canjeables, los tipos de recompensa, el comportamiento de caducidad y consejos prácticos de reclamo.",
+      "why": "¿Por qué usar las páginas de códigos de Anime Story 2?",
       "whySteps": {
-        "step1Title": "Desbloquea objetos poderosos",
-        "step1Description": "Descubre herramientas esenciales, armas y equipo de movilidad a través de la fusión",
-        "step2Title": "Entiende las esencias",
-        "step2Description": "Aprende cómo se combinan las esencias de los objetos para crear resultados predecibles",
-        "step3Title": "Optimiza recursos",
-        "step3Description": "Usa mecánicas de dilución para maximizar la producción con materiales baratos"
+        "step1Title": "Reclama Recursos Gratuitos Rápidamente",
+        "step1Description": "Obtén moneda y artículos de bonificación que reducen la presión de la progresión temprana.",
+        "step2Title": "Evita Entradas Caducadas",
+        "step2Description": "Usa listas de códigos curadas con estado claro y cadencia de actualización.",
+        "step3Title": "Canjea Correctamente",
+        "step3Description": "Sigue los pasos exactos de canje para evitar errores de entrada y recompensas perdidas."
       },
-      "featured": "Destacado y esencial",
-      "all": "Todas las guías de fabricación"
+      "featured": "Destacado y Esencial",
+      "all": "Todos los Artículos de Códigos"
     },
-    "items": {
-      "title": "Objetos de Lucid Blocks",
-      "description": "Guías detalladas de objetos que cubren herramientas, armas, equipo de movilidad y soluciones de almacenamiento con recetas de fabricación y consejos de uso.",
-      "metaTitle": "Objetos de Lucid Blocks - Guía de herramientas, armas y equipo",
-      "metaDescription": "Base de datos completa de objetos para Lucid Blocks, incluyendo herramientas, armas, equipo de movilidad y almacenamiento. Aprende a fabricar y usar cada objeto de manera efectiva.",
-      "categoryLabel": "OBJETOS Y EQUIPAMIENTO",
-      "whatIs": "¿Qué son los objetos?",
-      "whatIsDescription": "Guías exhaustivas de herramientas, armas, equipo de movilidad y objetos funcionales. Aprende recetas de fabricación, estrategias de uso y combinaciones óptimas.",
-      "why": "¿Por qué consultar las guías de objetos?",
+    "farming": {
+      "title": "Farming de Anime Story 2",
+      "description": "Bucles de farming eficientes para gemas, oro, tokens y materiales de reroll en todas las fases del juego.",
+      "metaTitle": "Farming de Anime Story 2 - Rutas de Gemas, Oro y Tokens",
+      "metaDescription": "Optimiza el farming de Anime Story 2 con bucles prácticos para oro, gemas, tokens de Traits y recursos de reroll.",
+      "categoryLabel": "FARMING DE RECURSOS",
+      "whatIs": "¿Qué es la categoría de Farming de Anime Story 2?",
+      "whatIsDescription": "Esta categoría se centra en rutas de recursos repetibles, eficiencia de drops y selección de etapas para las monedas clave de progresión.",
+      "why": "¿Por qué leer las guías de farming de Anime Story 2?",
       "whySteps": {
-        "step1Title": "Aprende recetas de fabricación",
-        "step1Description": "Descubre cómo fabricar herramientas y armas esenciales usando Apotheosis",
-        "step2Title": "Optimiza tu equipamiento",
-        "step2Description": "Elige los mejores objetos para tu estilo de juego y etapa de progresión",
-        "step3Title": "Mejora tu supervivencia",
-        "step3Description": "Equípate con equipo de movilidad y armas para navegar por este mundo peligroso"
+        "step1Title": "Mejora la Eficiencia de Recursos",
+        "step1Description": "Dedica el tiempo de juego a rutas con mejores retornos para tu nivel de poder actual.",
+        "step2Title": "Dirige la Moneda Correcta",
+        "step2Description": "Farmea los materiales exactos necesarios para Traits, invocaciones y mejoras de equipo.",
+        "step3Title": "Reduce el Tiempo de Inactividad de Actualización",
+        "step3Description": "Mantén un flujo constante de recursos para que la progresión nunca se detenga entre hitos."
       },
-      "featured": "Destacado y esencial",
-      "all": "Todos los objetos"
+      "featured": "Destacado y Esencial",
+      "all": "Todos los Artículos de Farming"
     },
-    "biomes": {
-      "title": "Biomas de Lucid Blocks",
-      "description": "Explora las regiones del mundo, características ambientales, ubicaciones de recursos y consejos de supervivencia para cada bioma.",
-      "metaTitle": "Biomas de Lucid Blocks - Regiones del mundo y exploración",
-      "metaDescription": "Explora los biomas de Lucid Blocks, incluyendo las Líneas Ley de Tiamana, Fog Meadow y regiones surrealistas. Encuentra recursos, evita peligros y navega por un mundo infinito.",
-      "categoryLabel": "REGIONES DEL MUNDO",
-      "whatIs": "¿Qué son los biomas?",
-      "whatIsDescription": "Guías de las diferentes regiones del mundo, características ambientales, distribución de recursos y zonas de peligro. Aprende qué esperar y cómo prepararte para cada área.",
-      "why": "¿Por qué explorar los biomas?",
+    "modes": {
+      "title": "Modos de Anime Story 2",
+      "description": "Cobertura para el modo historia, torre, raids, eventos y bucles de desafío centrados en jefes.",
+      "metaTitle": "Modos de Anime Story 2 - Historia, Torre, Raids y Eventos",
+      "metaDescription": "Aprende los modos de juego de Anime Story 2 con guías de estrategia para completar la historia, subir la torre, planificar raids y progresar en eventos.",
+      "categoryLabel": "MODOS DE JUEGO",
+      "whatIs": "¿Qué es la categoría de Modos de Anime Story 2?",
+      "whatIsDescription": "Esta categoría explica cada modo principal, el flujo de objetivos, el enfoque de recompensas y los requisitos de equipo para clears estables.",
+      "why": "¿Por qué consultar las guías de modos de Anime Story 2?",
       "whySteps": {
-        "step1Title": "Encuentra recursos",
-        "step1Description": "Localiza materiales raros y esencias específicas de cada región",
-        "step2Title": "Evita peligros",
-        "step2Description": "Entiende los riesgos ambientales y las criaturas hostiles",
-        "step3Title": "Planifica tu exploración",
-        "step3Description": "Prepara las herramientas y el equipo adecuados para cada tipo de bioma"
+        "step1Title": "Comprende las Condiciones de Victoria",
+        "step1Description": "Aprende los objetivos específicos del modo para que la configuración del equipo coincida con el tipo de desafío.",
+        "step2Title": "Prepárate para la Presión del Jefe",
+        "step2Description": "Ajusta las alineaciones y el tiempo de mejora antes de los puntos de control de alta dificultad.",
+        "step3Title": "Farmea Mejores Recompensas",
+        "step3Description": "Elige el modo correcto cuando necesites materiales de progresión específicos."
       },
-      "featured": "Destacado y esencial",
-      "all": "Todos los biomas"
+      "featured": "Destacado y Esencial",
+      "all": "Todos los Artículos de Modos"
     },
-    "building": {
-      "title": "Construcción en Lucid Blocks",
-      "description": "Domina las dimensiones personales Qualia, la construcción de bases, la gestión de almacenamiento y técnicas creativas de construcción.",
-      "metaTitle": "Construcción en Lucid Blocks - Qualia y construcción de bases",
-      "metaDescription": "Domina la construcción en Lucid Blocks con las dimensiones personales Qualia, construcción de bases, soluciones de almacenamiento y técnicas creativas de construcción.",
-      "categoryLabel": "CONSTRUCCIÓN Y BASES",
-      "whatIs": "¿Qué es la construcción?",
-      "whatIsDescription": "Guías sobre el sistema de dimensiones personales Qualia, construcción de bases, gestión de almacenamiento y construcción creativa. Aprende a crear tu refugio seguro en este mundo surrealista.",
-      "why": "¿Por qué construir bases?",
+    "summons": {
+      "title": "Invocaciones de Anime Story 2",
+      "description": "Prioridades de obtención de Units, verificación de valor de banners y planificación de invocaciones para el crecimiento de la plantilla a corto y largo plazo.",
+      "metaTitle": "Invocaciones de Anime Story 2 - Prioridad de Banners y Planificación de Units",
+      "metaDescription": "Planifica tus invocaciones en Anime Story 2 con evaluación de banners, prioridades de Units y estrategias prácticas de obtención.",
+      "categoryLabel": "SISTEMA DE INVOCACIÓN",
+      "whatIs": "¿Qué es la categoría de Invocaciones de Anime Story 2?",
+      "whatIsDescription": "Esta categoría cubre las mecánicas de invocación, tendencias de valor de Units, elección de banners y decisiones de obtención seguras para el progreso.",
+      "why": "¿Por qué leer las guías de invocación de Anime Story 2?",
       "whySteps": {
-        "step1Title": "Crea espacios seguros",
-        "step1Description": "Establece bases seguras para el almacenamiento y las operaciones de fabricación",
-        "step2Title": "Gestiona tus recursos",
-        "step2Description": "Organiza tus materiales de manera eficiente con soluciones de almacenamiento",
-        "step3Title": "Desbloquea Qualia",
-        "step3Description": "Accede a dimensiones de bolsillo personales para la máxima comodidad"
+        "step1Title": "Invoca con un Plan",
+        "step1Description": "Enfoca tus recursos limitados en banners que apoyen tus objetivos de progresión activos.",
+        "step2Title": "Construye Mejor Sinergia",
+        "step2Description": "Elige Units que se ajusten a tus roles existentes en lugar de buscar picos de poder aislados.",
+        "step3Title": "Protege tu Moneda Premium",
+        "step3Description": "Evita invocaciones de bajo valor siguiendo marcos de prioridad probados."
       },
-      "featured": "Destacado y esencial",
-      "all": "Todas las guías de construcción"
+      "featured": "Destacados y Esenciales",
+      "all": "Todos los Artículos de Invocación"
     },
-    "support": {
-      "title": "Soporte de Lucid Blocks",
-      "description": "Soporte técnico, compatibilidad de plataformas, optimización de rendimiento y solución de problemas comunes.",
-      "metaTitle": "Soporte de Lucid Blocks - Ayuda técnica y soluciones",
-      "metaDescription": "Obtén soporte técnico para Lucid Blocks, incluyendo la configuración de Steam Deck, soluciones a cierres inesperados, optimización de rendimiento y guías de compatibilidad de plataformas.",
-      "categoryLabel": "SOPORTE TÉCNICO",
-      "whatIs": "¿Qué es el soporte?",
-      "whatIsDescription": "Guías técnicas que cubren la compatibilidad de plataformas, optimización de rendimiento, soluciones a cierres inesperados y problemas comunes. Obtén ayuda con Steam Deck, preguntas sobre multijugador y ajustes.",
-      "why": "¿Por qué consultar el soporte?",
+    "tier-list": {
+      "title": "Tier List de Anime Story 2",
+      "description": "Clasificaciones por rol para carries, soportes y Units especialistas en las etapas actuales de progresión.",
+      "metaTitle": "Tier List de Anime Story 2 - Mejores Units por Rol y Progresión",
+      "metaDescription": "Usa la Tier List de Anime Story 2 para comparar las mejores Units, ajuste de roles y valor de mejora a través de la progresión del juego.",
+      "categoryLabel": "CLASIFICACIÓN DE UNITS",
+      "whatIs": "¿Qué es la categoría Tier List de Anime Story 2?",
+      "whatIsDescription": "Esta categoría clasifica a las Units por desempeño de rol, consistencia y valor práctico de mejora para casos reales de progresión.",
+      "why": "¿Por qué usar las páginas de Tier List de Anime Story 2?",
       "whySteps": {
-        "step1Title": "Soluciona problemas técnicos",
-        "step1Description": "Resuelve cierres inesperados, problemas de rendimiento y de compatibilidad",
-        "step2Title": "Optimiza el rendimiento",
-        "step2Description": "Configura los ajustes para obtener la mejor experiencia en tu plataforma",
-        "step3Title": "Compatibilidad de plataformas",
-        "step3Description": "Aprende sobre Steam Deck, soporte para controles y requisitos del sistema"
+        "step1Title": "Elige Units de Mayor Valor",
+        "step1Description": "Identifica Units que ofrezcan mejores retornos para tus materiales de mejora.",
+        "step2Title": "Planifica Mejor tus Rerolls",
+        "step2Description": "Usa el contexto de las clasificaciones para decidir cuándo conservar, hacer reroll o reemplazar espacios en tu plantilla.",
+        "step3Title": "Escala Equipos con Propósito",
+        "step3Description": "Combina datos de clasificación con equilibrio de roles para mejorar la estabilidad al completar niveles."
       },
-      "featured": "Destacado y esencial",
-      "all": "Todos los artículos de soporte"
+      "featured": "Destacados y Esenciales",
+      "all": "Todos los Artículos de Tier List"
+    },
+    "traits": {
+      "title": "Traits de Anime Story 2",
+      "description": "Clasificación de Traits, prioridades de reroll y estrategias de uso de tokens para daño, defensa y consistencia.",
+      "metaTitle": "Traits de Anime Story 2 - Prioridad de Reroll y Optimización de Traits",
+      "metaDescription": "Domina los Traits de Anime Story 2 con estrategias de reroll, planificación de tokens y elección de Traits específicos para cada build.",
+      "categoryLabel": "OPTIMIZACIÓN DE TRAITS",
+      "whatIs": "¿Qué es la categoría de Traits de Anime Story 2?",
+      "whatIsDescription": "Esta categoría explica el valor de los Traits, sistemas de reroll y el emparejamiento práctico entre efectos de Traits y roles de Units.",
+      "why": "¿Por qué seguir las guías de Traits de Anime Story 2?",
+      "whySteps": {
+        "step1Title": "Mejora el Desempeño de las Units",
+        "step1Description": "Aplica Traits que apoyen directamente el rol de combate y la ruta de escalado de cada Unit.",
+        "step2Title": "Usa Tokens Eficientemente",
+        "step2Description": "Gasta recursos de reroll donde las mejoras de Traits generen un impacto significativo en la cuenta.",
+        "step3Title": "Estabiliza el Contenido Difícil",
+        "step3Description": "Equilibra Traits de daño y supervivencia para modos más difíciles y batallas contra jefes."
+      },
+      "featured": "Destacados y Esenciales",
+      "all": "Todos los Artículos de Traits"
     }
   }
 }
