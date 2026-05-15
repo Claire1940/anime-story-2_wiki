@@ -1,6 +1,6 @@
 import type { Metadata } from 'next'
 import { NextIntlClientProvider } from 'next-intl'
-import { getMessages, getTranslations } from 'next-intl/server'
+import { getMessages } from 'next-intl/server'
 import { notFound } from 'next/navigation'
 import { routing, type Locale } from '@/i18n/routing'
 import { buildLanguageAlternates } from '@/lib/i18n-utils'
@@ -39,12 +39,13 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const siteUrl =
     process.env.NEXT_PUBLIC_SITE_URL || "https://anime-story-2.wiki";
 
-  // 获取 SEO 翻译
-  const t = await getTranslations("seo.home");
+  const metaTitle = "Anime Story 2 Wiki - Codes, Units, Traits & Worlds";
+  const metaDescription =
+    "Find Anime Story 2 codes, unit guides, traits, relics, worlds, beginner tips, evolutions, and update notes for Roblox players.";
 
   return {
-    title: t("title"),
-    description: t("description"),
+    title: metaTitle,
+    description: metaDescription,
     robots: {
       index: true,
       follow: true,
@@ -61,21 +62,21 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
       locale: locale,
       url: locale === "en" ? siteUrl : `${siteUrl}/${locale}`,
       siteName: "Anime Story 2 Wiki",
-      title: t("ogTitle"),
-      description: t("ogDescription"),
+      title: metaTitle,
+      description: metaDescription,
       images: [
         {
           url: `${siteUrl}/images/hero.webp`,
           width: 1920,
           height: 1080,
-          alt: "Anime Story 2 - Surreal Voxel Sandbox",
+          alt: "Anime Story 2 - Roblox Anime Adventure RPG",
         },
       ],
     },
     twitter: {
       card: "summary_large_image",
-      title: t("twitterTitle"),
-      description: t("twitterDescription"),
+      title: metaTitle,
+      description: metaDescription,
       images: [`${siteUrl}/images/hero.webp`],
       creator: "@anime_story_2",
     },
