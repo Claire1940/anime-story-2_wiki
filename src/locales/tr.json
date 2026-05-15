@@ -11,12 +11,13 @@
     }
   },
   "nav": {
-    "guides": "Rehberler",
-    "crafting": "Üretim",
-    "items": "Eşyalar",
-    "biomes": "Biyomlar",
-    "building": "İnşa",
-    "support": "Destek"
+    "guide": "Guide",
+    "codes": "Codes",
+    "farming": "Farming",
+    "modes": "Modes",
+    "summons": "Summons",
+    "tierList": "Tier List",
+    "traits": "Traits"
   },
   "common": {
     "home": "Ana Sayfa",

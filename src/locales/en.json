@@ -10,7 +10,15 @@
       "twitterDescription": "Anime Story 2 guides for codes, unit growth, traits, worlds, and endgame events."
     }
   },
-  "nav": {},
+  "nav": {
+    "guide": "Guide",
+    "codes": "Codes",
+    "farming": "Farming",
+    "modes": "Modes",
+    "summons": "Summons",
+    "tierList": "Tier List",
+    "traits": "Traits"
+  },
   "common": {
     "home": "Home",
     "more": "More",
@@ -413,125 +421,145 @@
     "disclaimer": "Unofficial fan-made resource website."
   },
   "pages": {
-    "guides": {
-      "title": "Anime Story 2 Guides",
-      "description": "Complete gameplay guides from beginner basics to advanced team-building and farming strategies.",
-      "metaTitle": "Anime Story 2 Guides - Beginner to Advanced Strategies",
-      "metaDescription": "Complete Anime Story 2 guides covering beginner tips, team upgrades, farming loops, and advanced progression tactics.",
-      "categoryLabel": "GAME GUIDES",
-      "whatIs": "What are Guides?",
-      "whatIsDescription": "Comprehensive guides for codes, units, traits, worlds, relics, raids, and event progression from first steps to endgame optimization.",
-      "why": "Why read guides?",
+    "guide": {
+      "title": "Anime Story 2 Guide",
+      "description": "Core progression routes, beginner checkpoints, and account-building priorities from early game to endgame.",
+      "metaTitle": "Anime Story 2 Guide - Beginner to Endgame Progression",
+      "metaDescription": "Follow the complete Anime Story 2 guide for progression order, team growth, stage priorities, and practical upgrade routing.",
+      "categoryLabel": "PROGRESSION GUIDE",
+      "whatIs": "What is the Anime Story 2 Guide category?",
+      "whatIsDescription": "This category covers complete progression playbooks including starter routes, world push pacing, map priorities, and noob-to-pro planning.",
+      "why": "Why read Anime Story 2 guide articles?",
       "whySteps": {
-        "step1Title": "Learn Core Mechanics",
-        "step1Description": "Understand summoning, upgrades, traits, and stage progression without wasting resources",
-        "step2Title": "Fast Progression",
-        "step2Description": "Follow proven routes for worlds, raids, and events to accelerate account growth",
-        "step3Title": "Master Strategies",
-        "step3Description": "Build stronger teams with role planning, relic choices, and reroll priorities"
+        "step1Title": "Start With Clear Direction",
+        "step1Description": "Use structured beginner routes so you avoid dead-end upgrades and wasted rerolls.",
+        "step2Title": "Push Worlds Faster",
+        "step2Description": "Follow tested progression pacing for story stages, boss checkpoints, and resource timing.",
+        "step3Title": "Build Long-Term Account Value",
+        "step3Description": "Prioritize upgrades that keep value through mid game and endgame transitions."
       },
       "featured": "Featured & Essential",
-      "all": "All Guides"
+      "all": "All Guide Articles"
     },
-    "crafting": {
-      "title": "Anime Story 2 Crafting",
-      "description": "Master relic crafting with shard routes, coin planning, and upgrade timing for stronger roster scaling.",
-      "metaTitle": "Anime Story 2 Crafting - Relics, Shards, and Upgrade Routes",
-      "metaDescription": "Learn Anime Story 2 relic crafting with Stage VII shard farming, coin costs, and practical progression strategies.",
-      "categoryLabel": "CRAFTING SYSTEM",
-      "whatIs": "What is Crafting?",
-      "whatIsDescription": "Crafting focuses on turning world shards and coins into relics that boost damage, critical chance, or survivability for your core units.",
-      "why": "Why master crafting?",
+    "codes": {
+      "title": "Anime Story 2 Codes",
+      "description": "Active redeem codes for free rewards, plus code usage steps and update tracking.",
+      "metaTitle": "Anime Story 2 Codes - Active Rewards and Redeem Steps",
+      "metaDescription": "Find working Anime Story 2 codes, redeem instructions, and reward details for faster account progression.",
+      "categoryLabel": "REDEEM CODES",
+      "whatIs": "What is the Anime Story 2 Codes category?",
+      "whatIsDescription": "This category tracks redeemable codes, reward types, expiration behavior, and practical claim tips.",
+      "why": "Why use Anime Story 2 code pages?",
       "whySteps": {
-        "step1Title": "Unlock Powerful Items",
-        "step1Description": "Craft relics that create immediate power spikes for story clears and boss fights",
-        "step2Title": "Target Correct Shards",
-        "step2Description": "Farm specific Stage VII worlds to build the relic path that matches your team needs",
-        "step3Title": "Optimize Resources",
-        "step3Description": "Balance coin spending, rerolls, and crafting so progression stays smooth"
+        "step1Title": "Claim Fast Free Resources",
+        "step1Description": "Get bonus currency and items that reduce early progression pressure.",
+        "step2Title": "Avoid Expired Entries",
+        "step2Description": "Use curated code lists with clear status and refresh cadence.",
+        "step3Title": "Redeem Correctly",
+        "step3Description": "Follow exact redeem steps to prevent input mistakes and missed rewards."
       },
       "featured": "Featured & Essential",
-      "all": "All Crafting Guides"
+      "all": "All Code Articles"
     },
-    "items": {
-      "title": "Anime Story 2 Items",
-      "description": "Detailed item guides covering upgrade items, shards, evolution materials, consumables, and relic usage priorities.",
-      "metaTitle": "Anime Story 2 Items - Upgrade Materials and Relics Guide",
-      "metaDescription": "Complete Anime Story 2 item coverage including Trait Tokens, shards, evolution materials, consumables, and relic planning.",
-      "categoryLabel": "ITEMS & EQUIPMENT",
-      "whatIs": "What are Items?",
-      "whatIsDescription": "Comprehensive guides for reroll resources, evolution drops, raid shop items, and relic ingredients with clear farming targets.",
-      "why": "Why check item guides?",
+    "farming": {
+      "title": "Anime Story 2 Farming",
+      "description": "Efficient farming loops for gems, gold, tokens, and reroll materials across game phases.",
+      "metaTitle": "Anime Story 2 Farming - Gems, Gold, and Token Routes",
+      "metaDescription": "Optimize Anime Story 2 farming with practical loops for gold, gems, trait tokens, and reroll resources.",
+      "categoryLabel": "RESOURCE FARMING",
+      "whatIs": "What is the Anime Story 2 Farming category?",
+      "whatIsDescription": "This category focuses on repeatable resource routes, drop efficiency, and stage selection for key progression currencies.",
+      "why": "Why read Anime Story 2 farming guides?",
       "whySteps": {
-        "step1Title": "Prioritize Farming",
-        "step1Description": "Know which items to farm now and which to save for later power spikes",
-        "step2Title": "Optimize Equipment",
-        "step2Description": "Match relic and material spending to your current carry units and team role gaps",
-        "step3Title": "Improve Survival",
-        "step3Description": "Avoid waste by timing rerolls and ascension upgrades around milestone content"
+        "step1Title": "Improve Resource Efficiency",
+        "step1Description": "Spend playtime on routes with better returns for your current power level.",
+        "step2Title": "Target the Right Currency",
+        "step2Description": "Farm the exact materials needed for traits, summons, and team upgrades.",
+        "step3Title": "Reduce Upgrade Downtime",
+        "step3Description": "Keep a steady resource flow so progression never stalls between milestones."
       },
       "featured": "Featured & Essential",
-      "all": "All Items"
+      "all": "All Farming Articles"
     },
-    "biomes": {
-      "title": "Anime Story 2 Biomes",
-      "description": "Explore world regions, environmental features, resource locations, and survival tips for each biome.",
-      "metaTitle": "Anime Story 2 Biomes - World Regions & Exploration",
-      "metaDescription": "Explore Anime Story 2 worlds by stage difficulty, shard rewards, and progression targets for faster unlock routes.",
-      "categoryLabel": "WORLD REGIONS",
-      "whatIs": "What are Biomes?",
-      "whatIsDescription": "Guides to different world regions, environmental features, resource distribution, and danger zones. Learn what to expect and how to prepare for each area.",
-      "why": "Why explore biomes?",
+    "modes": {
+      "title": "Anime Story 2 Modes",
+      "description": "Coverage for story mode, tower, raids, events, and boss-focused challenge loops.",
+      "metaTitle": "Anime Story 2 Modes - Story, Tower, Raids, and Events",
+      "metaDescription": "Learn Anime Story 2 game modes with strategy guides for story clears, tower climbs, raid planning, and event progress.",
+      "categoryLabel": "GAME MODES",
+      "whatIs": "What is the Anime Story 2 Modes category?",
+      "whatIsDescription": "This category explains each major mode, objective flow, reward focus, and team requirements for stable clears.",
+      "why": "Why check Anime Story 2 mode guides?",
       "whySteps": {
-        "step1Title": "Find Resources",
-        "step1Description": "Locate shard and evolution drops tied to specific world stages",
-        "step2Title": "Avoid Dangers",
-        "step2Description": "Understand combat power jumps and enemy pressure between world tiers",
-        "step3Title": "Plan Exploration",
-        "step3Description": "Plan team upgrades before pushing into harder story worlds"
+        "step1Title": "Understand Win Conditions",
+        "step1Description": "Learn mode-specific goals so team setup matches the challenge type.",
+        "step2Title": "Prepare for Boss Pressure",
+        "step2Description": "Adjust lineups and upgrade timing before high-difficulty checkpoints.",
+        "step3Title": "Farm Better Rewards",
+        "step3Description": "Pick the right mode when you need specific progression materials."
       },
       "featured": "Featured & Essential",
-      "all": "All Biomes"
+      "all": "All Mode Articles"
     },
-    "building": {
-      "title": "Anime Story 2 Building",
-      "description": "Build stronger lineups with unit role planning, progression pacing, and upgrade sequencing.",
-      "metaTitle": "Anime Story 2 Building - Team Composition and Progression Setup",
-      "metaDescription": "Master Anime Story 2 team building with carry focus, support balance, and upgrade sequencing for efficient progression.",
-      "categoryLabel": "BUILDING & BASES",
-      "whatIs": "What is Building?",
-      "whatIsDescription": "Guides focused on building reliable teams with balanced roles, trait priorities, relic paths, and farming plans.",
-      "why": "Why build bases?",
+    "summons": {
+      "title": "Anime Story 2 Summons",
+      "description": "Unit pull priorities, banner value checks, and summon planning for short and long-term roster growth.",
+      "metaTitle": "Anime Story 2 Summons - Banner Priority and Unit Pull Planning",
+      "metaDescription": "Plan Anime Story 2 summons with banner evaluation, unit priorities, and practical pull strategies.",
+      "categoryLabel": "SUMMON SYSTEM",
+      "whatIs": "What is the Anime Story 2 Summons category?",
+      "whatIsDescription": "This category covers summon mechanics, unit value trends, banner choices, and progression-safe pull decisions.",
+      "why": "Why read Anime Story 2 summon guides?",
       "whySteps": {
-        "step1Title": "Create Stable Teams",
-        "step1Description": "Use one carry, one frontline, and support coverage to avoid progression stalls",
-        "step2Title": "Manage Resources",
-        "step2Description": "Spend Gems, tokens, and materials on units that stay in your long-term lineup",
-        "step3Title": "Scale Efficiently",
-        "step3Description": "Align upgrades with world unlocks, tower goals, and raid evolution targets"
+        "step1Title": "Pull With a Plan",
+        "step1Description": "Focus limited resources on banners that support your active progression goals.",
+        "step2Title": "Build Better Synergy",
+        "step2Description": "Choose units that fit your existing roles instead of chasing isolated power spikes.",
+        "step3Title": "Protect Premium Currency",
+        "step3Description": "Avoid low-value summons by following tested priority frameworks."
       },
       "featured": "Featured & Essential",
-      "all": "All Building Guides"
+      "all": "All Summon Articles"
     },
-    "support": {
-      "title": "Anime Story 2 Support",
-      "description": "Technical support, platform compatibility, performance optimization, and troubleshooting for common issues.",
-      "metaTitle": "Anime Story 2 Support - Technical Help & Fixes",
-      "metaDescription": "Get technical support for Anime Story 2 including crash fixes, lag reduction, and platform compatibility guidance.",
-      "categoryLabel": "TECHNICAL SUPPORT",
-      "whatIs": "What is Support?",
-      "whatIsDescription": "Technical guides covering platform compatibility, performance optimization, crashes, and common Roblox gameplay issues.",
-      "why": "Why check support?",
+    "tier-list": {
+      "title": "Anime Story 2 Tier List",
+      "description": "Role-aware rankings for carries, supports, and specialist units across current progression stages.",
+      "metaTitle": "Anime Story 2 Tier List - Best Units by Role and Progression",
+      "metaDescription": "Use the Anime Story 2 tier list to compare top units, role fit, and upgrade value across game progression.",
+      "categoryLabel": "UNIT RANKINGS",
+      "whatIs": "What is the Anime Story 2 Tier List category?",
+      "whatIsDescription": "This category ranks units by role performance, consistency, and practical upgrade value for real progression use cases.",
+      "why": "Why use Anime Story 2 tier list pages?",
       "whySteps": {
-        "step1Title": "Fix Technical Issues",
-        "step1Description": "Resolve crashes, performance problems, and compatibility issues",
-        "step2Title": "Optimize Performance",
-        "step2Description": "Configure settings for best experience on your platform",
-        "step3Title": "Platform Compatibility",
-        "step3Description": "Learn about PC, mobile, and console behavior, plus controller-friendly settings"
+        "step1Title": "Pick Higher-Value Units",
+        "step1Description": "Identify units that deliver stronger returns for your upgrade materials.",
+        "step2Title": "Plan Rerolls Better",
+        "step2Description": "Use ranking context to decide when to keep, reroll, or replace roster slots.",
+        "step3Title": "Scale Teams With Purpose",
+        "step3Description": "Combine ranking data with role balance to improve clear stability."
       },
       "featured": "Featured & Essential",
-      "all": "All Support Articles"
+      "all": "All Tier List Articles"
+    },
+    "traits": {
+      "title": "Anime Story 2 Traits",
+      "description": "Trait tiering, reroll priorities, and token usage strategies for damage, defense, and consistency.",
+      "metaTitle": "Anime Story 2 Traits - Reroll Priority and Trait Optimization",
+      "metaDescription": "Master Anime Story 2 traits with reroll strategy, token planning, and build-specific trait choices.",
+      "categoryLabel": "TRAIT OPTIMIZATION",
+      "whatIs": "What is the Anime Story 2 Traits category?",
+      "whatIsDescription": "This category explains trait value, reroll systems, and practical matching between trait effects and unit roles.",
+      "why": "Why follow Anime Story 2 trait guides?",
+      "whySteps": {
+        "step1Title": "Improve Unit Performance",
+        "step1Description": "Apply traits that directly support each unit’s combat role and scaling path.",
+        "step2Title": "Use Tokens Efficiently",
+        "step2Description": "Spend reroll resources where trait upgrades create meaningful account impact.",
+        "step3Title": "Stabilize Difficult Content",
+        "step3Description": "Balance damage and survivability traits for harder modes and boss fights."
+      },
+      "featured": "Featured & Essential",
+      "all": "All Trait Articles"
     }
   }
 }

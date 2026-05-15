@@ -11,12 +11,13 @@
     }
   },
   "nav": {
-    "guides": "Guias",
-    "crafting": "Criação",
-    "items": "Itens",
-    "biomes": "Biomas",
-    "building": "Construção",
-    "support": "Suporte"
+    "guide": "Guide",
+    "codes": "Codes",
+    "farming": "Farming",
+    "modes": "Modes",
+    "summons": "Summons",
+    "tierList": "Tier List",
+    "traits": "Traits"
   },
   "common": {
     "home": "Início",

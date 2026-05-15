@@ -11,12 +11,13 @@
     }
   },
   "nav": {
-    "guides": "ガイド",
-    "crafting": "クラフト",
-    "items": "アイテム",
-    "biomes": "バイオーム",
-    "building": "建築",
-    "support": "サポート"
+    "guide": "Guide",
+    "codes": "Codes",
+    "farming": "Farming",
+    "modes": "Modes",
+    "summons": "Summons",
+    "tierList": "Tier List",
+    "traits": "Traits"
   },
   "common": {
     "home": "ホーム",
