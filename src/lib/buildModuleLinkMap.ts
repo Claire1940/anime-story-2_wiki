@@ -39,7 +39,11 @@ const MODULE_EXTRA_KEYWORDS: Record<string, string[]> = {
 
 const FILLER_WORDS = ['anime', 'story', '2026', '2025', 'complete', 'the', 'and', 'for', 'how', 'with', 'our', 'this', 'your', 'all', 'from', 'learn', 'master']
 
-function normalize(text: string): string {
+function normalize(text: unknown): string {
+  if (typeof text !== 'string') {
+    return ''
+  }
+
   return text
     .toLowerCase()
     .replace(/[^a-z0-9\s]/g, ' ')
@@ -47,7 +51,7 @@ function normalize(text: string): string {
     .trim()
 }
 
-function getSignificantTokens(text: string): string[] {
+function getSignificantTokens(text: unknown): string[] {
   return normalize(text)
     .split(' ')
     .filter(w => w.length > 2 && !FILLER_WORDS.includes(w))
@@ -99,6 +103,10 @@ function findBestMatch(
   extraKeywords?: string[],
   threshold = 20,
 ): ArticleLink | null {
+  if (!normalize(queryText)) {
+    return null
+  }
+
   let bestScore = 0
   let bestArticle: ArticleWithType | null = null
 
@@ -113,7 +121,7 @@ function findBestMatch(
   if (bestScore >= threshold && bestArticle) {
     return {
       url: `/${bestArticle.contentType}/${bestArticle.slug}`,
-      title: bestArticle.frontmatter.title,
+      title: bestArticle.frontmatter.title || bestArticle.slug,
     }
   }
 
