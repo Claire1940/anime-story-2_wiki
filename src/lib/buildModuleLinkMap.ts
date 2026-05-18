@@ -54,6 +54,10 @@ function getSignificantTokens(text: string): string[] {
 }
 
 function matchScore(queryText: string, article: ArticleWithType, extraKeywords?: string[]): number {
+  if (!article.frontmatter?.title) {
+    return 0
+  }
+
   const normalizedQuery = normalize(queryText)
   const normalizedTitle = normalize(article.frontmatter.title)
   const normalizedDesc = normalize(article.frontmatter.description || '')

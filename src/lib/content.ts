@@ -87,10 +87,33 @@ function getContentFilePath(contentType: ContentType, language: Language, slug: 
   return path.join(contentDir, `${realSlug}.mdx`)
 }
 
-function readFrontmatter(filePath: string): ContentFrontmatter {
+function isContentFrontmatter(value: Partial<ContentFrontmatter> | null | undefined): value is ContentFrontmatter {
+  return Boolean(value?.title && value?.description)
+}
+
+function parseMetadataExport(source: string): ContentFrontmatter | null {
+  const match = source.match(/export\s+const\s+metadata\s*=\s*(\{[\s\S]*?\n\})/)
+  if (!match) {
+    return null
+  }
+
+  try {
+    const metadata = Function(`"use strict"; return (${match[1]})`)() as Partial<ContentFrontmatter>
+    return isContentFrontmatter(metadata) ? metadata : null
+  } catch {
+    return null
+  }
+}
+
+function readFrontmatter(filePath: string): ContentFrontmatter | null {
   const source = fs.readFileSync(filePath, 'utf8')
   const { data } = matter(source)
-  return data as ContentFrontmatter
+
+  if (isContentFrontmatter(data as Partial<ContentFrontmatter>)) {
+    return data as ContentFrontmatter
+  }
+
+  return parseMetadataExport(source)
 }
 
 export function getContentFrontmatter(
@@ -101,7 +124,10 @@ export function getContentFrontmatter(
   const filePath = getContentFilePath(contentType, language, slug)
 
   if (filePath) {
-    return readFrontmatter(filePath)
+    const frontmatter = readFrontmatter(filePath)
+    if (frontmatter) {
+      return frontmatter
+    }
   }
 
   if (language !== 'en') {
