@@ -1,0 +1,1010 @@
+{
+  "en": {
+    "codes": [
+      {
+        "slug": "anime-story-2-codes",
+        "file": "anime-story-2-codes"
+      }
+    ],
+    "community": [
+      {
+        "slug": "anime-story-2-discord",
+        "file": "anime-story-2-discord"
+      },
+      {
+        "slug": "anime-story-2-re-release",
+        "file": "anime-story-2-re-release"
+      },
+      {
+        "slug": "anime-story-2-release",
+        "file": "anime-story-2-release"
+      },
+      {
+        "slug": "anime-story-2-roblox",
+        "file": "anime-story-2-roblox"
+      },
+      {
+        "slug": "anime-story-2-trello",
+        "file": "anime-story-2-trello"
+      },
+      {
+        "slug": "anime-story-2-update-1",
+        "file": "anime-story-2-update-1"
+      },
+      {
+        "slug": "anime-story-2-update",
+        "file": "anime-story-2-update"
+      }
+    ],
+    "farming": [
+      {
+        "slug": "anime-story-2-aura-farmer",
+        "file": "anime-story-2-aura-farmer"
+      },
+      {
+        "slug": "anime-story-2-best-farming-method",
+        "file": "anime-story-2-best-farming-method"
+      },
+      {
+        "slug": "anime-story-2-farm-tower-guide",
+        "file": "anime-story-2-farm-tower-guide"
+      },
+      {
+        "slug": "anime-story-2-gem-farming",
+        "file": "anime-story-2-gem-farming"
+      },
+      {
+        "slug": "anime-story-2-gold-farming",
+        "file": "anime-story-2-gold-farming"
+      },
+      {
+        "slug": "anime-story-2-relics",
+        "file": "anime-story-2-relics"
+      },
+      {
+        "slug": "anime-story-2-reroll-farming",
+        "file": "anime-story-2-reroll-farming"
+      },
+      {
+        "slug": "anime-story-2-slime-token-farming",
+        "file": "anime-story-2-slime-token-farming"
+      },
+      {
+        "slug": "anime-story-2-trait-token-farming",
+        "file": "anime-story-2-trait-token-farming"
+      }
+    ],
+    "guide": [
+      {
+        "slug": "anime-story-2-beginner-guide",
+        "file": "anime-story-2-beginner-guide"
+      },
+      {
+        "slug": "anime-story-2-best-team",
+        "file": "anime-story-2-best-team"
+      },
+      {
+        "slug": "anime-story-2-elements",
+        "file": "anime-story-2-elements"
+      },
+      {
+        "slug": "anime-story-2-guide",
+        "file": "anime-story-2-guide"
+      },
+      {
+        "slug": "anime-story-2-how-to-play",
+        "file": "anime-story-2-how-to-play"
+      },
+      {
+        "slug": "anime-story-2-map-guide",
+        "file": "anime-story-2-map-guide"
+      },
+      {
+        "slug": "anime-story-2-noob-to-pro",
+        "file": "anime-story-2-noob-to-pro"
+      },
+      {
+        "slug": "anime-story-2-progression-guide",
+        "file": "anime-story-2-progression-guide"
+      },
+      {
+        "slug": "anime-story-2-starter-guide",
+        "file": "anime-story-2-starter-guide"
+      },
+      {
+        "slug": "anime-story-2-tips",
+        "file": "anime-story-2-tips"
+      }
+    ],
+    "modes": [
+      {
+        "slug": "anime-story-2-bosses",
+        "file": "anime-story-2-bosses"
+      },
+      {
+        "slug": "anime-story-2-raids",
+        "file": "anime-story-2-raids"
+      },
+      {
+        "slug": "anime-story-2-slime-event",
+        "file": "anime-story-2-slime-event"
+      },
+      {
+        "slug": "anime-story-2-solo-boss-guide",
+        "file": "anime-story-2-solo-boss-guide"
+      },
+      {
+        "slug": "anime-story-2-stages",
+        "file": "anime-story-2-stages"
+      },
+      {
+        "slug": "anime-story-2-story-mode",
+        "file": "anime-story-2-story-mode"
+      },
+      {
+        "slug": "anime-story-2-tower",
+        "file": "anime-story-2-tower"
+      }
+    ],
+    "summons": [
+      {
+        "slug": "anime-story-2-ascended-aizen",
+        "file": "anime-story-2-ascended-aizen"
+      },
+      {
+        "slug": "anime-story-2-beru-monarch",
+        "file": "anime-story-2-beru-monarch"
+      },
+      {
+        "slug": "anime-story-2-cid",
+        "file": "anime-story-2-cid"
+      },
+      {
+        "slug": "anime-story-2-genos",
+        "file": "anime-story-2-genos"
+      },
+      {
+        "slug": "anime-story-2-julius",
+        "file": "anime-story-2-julius"
+      },
+      {
+        "slug": "anime-story-2-monarch-rimuru",
+        "file": "anime-story-2-monarch-rimuru"
+      },
+      {
+        "slug": "anime-story-2-secret-units",
+        "file": "anime-story-2-secret-units"
+      },
+      {
+        "slug": "anime-story-2-shiny-units",
+        "file": "anime-story-2-shiny-units"
+      },
+      {
+        "slug": "anime-story-2-summons",
+        "file": "anime-story-2-summons"
+      },
+      {
+        "slug": "anime-story-2-yuno",
+        "file": "anime-story-2-yuno"
+      }
+    ],
+    "tier-list": [
+      {
+        "slug": "anime-story-2-beginner-tier-list",
+        "file": "anime-story-2-beginner-tier-list"
+      },
+      {
+        "slug": "anime-story-2-best-units",
+        "file": "anime-story-2-best-units"
+      },
+      {
+        "slug": "anime-story-2-meta-units",
+        "file": "anime-story-2-meta-units"
+      },
+      {
+        "slug": "anime-story-2-re-release-tier-list",
+        "file": "anime-story-2-re-release-tier-list"
+      },
+      {
+        "slug": "anime-story-2-reroll-tier-list",
+        "file": "anime-story-2-reroll-tier-list"
+      },
+      {
+        "slug": "anime-story-2-secret-tier-list",
+        "file": "anime-story-2-secret-tier-list"
+      },
+      {
+        "slug": "anime-story-2-tier-list",
+        "file": "anime-story-2-tier-list"
+      }
+    ],
+    "traits": [
+      {
+        "slug": "anime-story-2-best-traits",
+        "file": "anime-story-2-best-traits"
+      },
+      {
+        "slug": "anime-story-2-damage-traits",
+        "file": "anime-story-2-damage-traits"
+      },
+      {
+        "slug": "anime-story-2-how-to-reroll-traits",
+        "file": "anime-story-2-how-to-reroll-traits"
+      },
+      {
+        "slug": "anime-story-2-survival-traits",
+        "file": "anime-story-2-survival-traits"
+      },
+      {
+        "slug": "anime-story-2-trait-rerolls",
+        "file": "anime-story-2-trait-rerolls"
+      },
+      {
+        "slug": "anime-story-2-trait-tokens",
+        "file": "anime-story-2-trait-tokens"
+      },
+      {
+        "slug": "anime-story-2-traits",
+        "file": "anime-story-2-traits"
+      }
+    ]
+  },
+  "es": {
+    "codes": [
+      {
+        "slug": "anime-story-2-codes",
+        "file": "anime-story-2-codes"
+      }
+    ],
+    "community": [
+      {
+        "slug": "anime-story-2-discord",
+        "file": "anime-story-2-discord"
+      },
+      {
+        "slug": "anime-story-2-re-release",
+        "file": "anime-story-2-re-release"
+      },
+      {
+        "slug": "anime-story-2-release",
+        "file": "anime-story-2-release"
+      },
+      {
+        "slug": "anime-story-2-roblox",
+        "file": "anime-story-2-roblox"
+      },
+      {
+        "slug": "anime-story-2-trello",
+        "file": "anime-story-2-trello"
+      },
+      {
+        "slug": "anime-story-2-update-1",
+        "file": "anime-story-2-update-1"
+      },
+      {
+        "slug": "anime-story-2-update",
+        "file": "anime-story-2-update"
+      }
+    ],
+    "farming": [
+      {
+        "slug": "anime-story-2-aura-farmer",
+        "file": "anime-story-2-aura-farmer"
+      },
+      {
+        "slug": "anime-story-2-best-farming-method",
+        "file": "anime-story-2-best-farming-method"
+      },
+      {
+        "slug": "anime-story-2-farm-tower-guide",
+        "file": "anime-story-2-farm-tower-guide"
+      },
+      {
+        "slug": "anime-story-2-gem-farming",
+        "file": "anime-story-2-gem-farming"
+      },
+      {
+        "slug": "anime-story-2-gold-farming",
+        "file": "anime-story-2-gold-farming"
+      },
+      {
+        "slug": "anime-story-2-relics",
+        "file": "anime-story-2-relics"
+      },
+      {
+        "slug": "anime-story-2-reroll-farming",
+        "file": "anime-story-2-reroll-farming"
+      },
+      {
+        "slug": "anime-story-2-slime-token-farming",
+        "file": "anime-story-2-slime-token-farming"
+      },
+      {
+        "slug": "anime-story-2-trait-token-farming",
+        "file": "anime-story-2-trait-token-farming"
+      }
+    ],
+    "guide": [
+      {
+        "slug": "anime-story-2-beginner-guide",
+        "file": "anime-story-2-beginner-guide"
+      },
+      {
+        "slug": "anime-story-2-best-team",
+        "file": "anime-story-2-best-team"
+      },
+      {
+        "slug": "anime-story-2-elements",
+        "file": "anime-story-2-elements"
+      },
+      {
+        "slug": "anime-story-2-guide",
+        "file": "anime-story-2-guide"
+      },
+      {
+        "slug": "anime-story-2-how-to-play",
+        "file": "anime-story-2-how-to-play"
+      },
+      {
+        "slug": "anime-story-2-map-guide",
+        "file": "anime-story-2-map-guide"
+      },
+      {
+        "slug": "anime-story-2-noob-to-pro",
+        "file": "anime-story-2-noob-to-pro"
+      },
+      {
+        "slug": "anime-story-2-progression-guide",
+        "file": "anime-story-2-progression-guide"
+      },
+      {
+        "slug": "anime-story-2-starter-guide",
+        "file": "anime-story-2-starter-guide"
+      },
+      {
+        "slug": "anime-story-2-tips",
+        "file": "anime-story-2-tips"
+      }
+    ],
+    "modes": [
+      {
+        "slug": "anime-story-2-bosses",
+        "file": "anime-story-2-bosses"
+      },
+      {
+        "slug": "anime-story-2-raids",
+        "file": "anime-story-2-raids"
+      },
+      {
+        "slug": "anime-story-2-slime-event",
+        "file": "anime-story-2-slime-event"
+      },
+      {
+        "slug": "anime-story-2-solo-boss-guide",
+        "file": "anime-story-2-solo-boss-guide"
+      },
+      {
+        "slug": "anime-story-2-stages",
+        "file": "anime-story-2-stages"
+      },
+      {
+        "slug": "anime-story-2-story-mode",
+        "file": "anime-story-2-story-mode"
+      },
+      {
+        "slug": "anime-story-2-tower",
+        "file": "anime-story-2-tower"
+      }
+    ],
+    "summons": [
+      {
+        "slug": "anime-story-2-ascended-aizen",
+        "file": "anime-story-2-ascended-aizen"
+      },
+      {
+        "slug": "anime-story-2-beru-monarch",
+        "file": "anime-story-2-beru-monarch"
+      },
+      {
+        "slug": "anime-story-2-cid",
+        "file": "anime-story-2-cid"
+      },
+      {
+        "slug": "anime-story-2-genos",
+        "file": "anime-story-2-genos"
+      },
+      {
+        "slug": "anime-story-2-julius",
+        "file": "anime-story-2-julius"
+      },
+      {
+        "slug": "anime-story-2-monarch-rimuru",
+        "file": "anime-story-2-monarch-rimuru"
+      },
+      {
+        "slug": "anime-story-2-secret-units",
+        "file": "anime-story-2-secret-units"
+      },
+      {
+        "slug": "anime-story-2-shiny-units",
+        "file": "anime-story-2-shiny-units"
+      },
+      {
+        "slug": "anime-story-2-summons",
+        "file": "anime-story-2-summons"
+      },
+      {
+        "slug": "anime-story-2-yuno",
+        "file": "anime-story-2-yuno"
+      }
+    ],
+    "tier-list": [
+      {
+        "slug": "anime-story-2-beginner-tier-list",
+        "file": "anime-story-2-beginner-tier-list"
+      },
+      {
+        "slug": "anime-story-2-best-units",
+        "file": "anime-story-2-best-units"
+      },
+      {
+        "slug": "anime-story-2-meta-units",
+        "file": "anime-story-2-meta-units"
+      },
+      {
+        "slug": "anime-story-2-re-release-tier-list",
+        "file": "anime-story-2-re-release-tier-list"
+      },
+      {
+        "slug": "anime-story-2-reroll-tier-list",
+        "file": "anime-story-2-reroll-tier-list"
+      },
+      {
+        "slug": "anime-story-2-secret-tier-list",
+        "file": "anime-story-2-secret-tier-list"
+      },
+      {
+        "slug": "anime-story-2-tier-list",
+        "file": "anime-story-2-tier-list"
+      }
+    ],
+    "traits": [
+      {
+        "slug": "anime-story-2-best-traits",
+        "file": "anime-story-2-best-traits"
+      },
+      {
+        "slug": "anime-story-2-damage-traits",
+        "file": "anime-story-2-damage-traits"
+      },
+      {
+        "slug": "anime-story-2-how-to-reroll-traits",
+        "file": "anime-story-2-how-to-reroll-traits"
+      },
+      {
+        "slug": "anime-story-2-survival-traits",
+        "file": "anime-story-2-survival-traits"
+      },
+      {
+        "slug": "anime-story-2-trait-rerolls",
+        "file": "anime-story-2-trait-rerolls"
+      },
+      {
+        "slug": "anime-story-2-trait-tokens",
+        "file": "anime-story-2-trait-tokens"
+      },
+      {
+        "slug": "anime-story-2-traits",
+        "file": "anime-story-2-traits"
+      }
+    ]
+  },
+  "fr": {
+    "codes": [
+      {
+        "slug": "anime-story-2-codes",
+        "file": "anime-story-2-codes"
+      }
+    ],
+    "community": [
+      {
+        "slug": "anime-story-2-discord",
+        "file": "anime-story-2-discord"
+      },
+      {
+        "slug": "anime-story-2-re-release",
+        "file": "anime-story-2-re-release"
+      },
+      {
+        "slug": "anime-story-2-release",
+        "file": "anime-story-2-release"
+      },
+      {
+        "slug": "anime-story-2-roblox",
+        "file": "anime-story-2-roblox"
+      },
+      {
+        "slug": "anime-story-2-trello",
+        "file": "anime-story-2-trello"
+      },
+      {
+        "slug": "anime-story-2-update-1",
+        "file": "anime-story-2-update-1"
+      },
+      {
+        "slug": "anime-story-2-update",
+        "file": "anime-story-2-update"
+      }
+    ],
+    "farming": [
+      {
+        "slug": "anime-story-2-best-farming-method",
+        "file": "anime-story-2-best-farming-method"
+      },
+      {
+        "slug": "anime-story-2-farm-tower-guide",
+        "file": "anime-story-2-farm-tower-guide"
+      },
+      {
+        "slug": "anime-story-2-gem-farming",
+        "file": "anime-story-2-gem-farming"
+      },
+      {
+        "slug": "anime-story-2-gold-farming",
+        "file": "anime-story-2-gold-farming"
+      },
+      {
+        "slug": "anime-story-2-reroll-farming",
+        "file": "anime-story-2-reroll-farming"
+      },
+      {
+        "slug": "anime-story-2-slime-token-farming",
+        "file": "anime-story-2-slime-token-farming"
+      },
+      {
+        "slug": "anime-story-2-trait-token-farming",
+        "file": "anime-story-2-trait-token-farming"
+      }
+    ],
+    "guide": [
+      {
+        "slug": "anime-story-2-beginner-guide",
+        "file": "anime-story-2-beginner-guide"
+      },
+      {
+        "slug": "anime-story-2-guide",
+        "file": "anime-story-2-guide"
+      },
+      {
+        "slug": "anime-story-2-how-to-play",
+        "file": "anime-story-2-how-to-play"
+      },
+      {
+        "slug": "anime-story-2-map-guide",
+        "file": "anime-story-2-map-guide"
+      },
+      {
+        "slug": "anime-story-2-noob-to-pro",
+        "file": "anime-story-2-noob-to-pro"
+      },
+      {
+        "slug": "anime-story-2-progression-guide",
+        "file": "anime-story-2-progression-guide"
+      },
+      {
+        "slug": "anime-story-2-starter-guide",
+        "file": "anime-story-2-starter-guide"
+      },
+      {
+        "slug": "anime-story-2-tips",
+        "file": "anime-story-2-tips"
+      }
+    ],
+    "modes": [
+      {
+        "slug": "anime-story-2-bosses",
+        "file": "anime-story-2-bosses"
+      },
+      {
+        "slug": "anime-story-2-raids",
+        "file": "anime-story-2-raids"
+      },
+      {
+        "slug": "anime-story-2-slime-event",
+        "file": "anime-story-2-slime-event"
+      },
+      {
+        "slug": "anime-story-2-solo-boss-guide",
+        "file": "anime-story-2-solo-boss-guide"
+      },
+      {
+        "slug": "anime-story-2-stages",
+        "file": "anime-story-2-stages"
+      },
+      {
+        "slug": "anime-story-2-story-mode",
+        "file": "anime-story-2-story-mode"
+      },
+      {
+        "slug": "anime-story-2-tower",
+        "file": "anime-story-2-tower"
+      }
+    ],
+    "summons": [
+      {
+        "slug": "anime-story-2-ascended-aizen",
+        "file": "anime-story-2-ascended-aizen"
+      },
+      {
+        "slug": "anime-story-2-beru-monarch",
+        "file": "anime-story-2-beru-monarch"
+      },
+      {
+        "slug": "anime-story-2-cid",
+        "file": "anime-story-2-cid"
+      },
+      {
+        "slug": "anime-story-2-genos",
+        "file": "anime-story-2-genos"
+      },
+      {
+        "slug": "anime-story-2-monarch-rimuru",
+        "file": "anime-story-2-monarch-rimuru"
+      },
+      {
+        "slug": "anime-story-2-secret-units",
+        "file": "anime-story-2-secret-units"
+      },
+      {
+        "slug": "anime-story-2-shiny-units",
+        "file": "anime-story-2-shiny-units"
+      },
+      {
+        "slug": "anime-story-2-summons",
+        "file": "anime-story-2-summons"
+      }
+    ],
+    "tier-list": [
+      {
+        "slug": "anime-story-2-beginner-tier-list",
+        "file": "anime-story-2-beginner-tier-list"
+      },
+      {
+        "slug": "anime-story-2-best-units",
+        "file": "anime-story-2-best-units"
+      },
+      {
+        "slug": "anime-story-2-meta-units",
+        "file": "anime-story-2-meta-units"
+      },
+      {
+        "slug": "anime-story-2-re-release-tier-list",
+        "file": "anime-story-2-re-release-tier-list"
+      },
+      {
+        "slug": "anime-story-2-reroll-tier-list",
+        "file": "anime-story-2-reroll-tier-list"
+      },
+      {
+        "slug": "anime-story-2-secret-tier-list",
+        "file": "anime-story-2-secret-tier-list"
+      },
+      {
+        "slug": "anime-story-2-tier-list",
+        "file": "anime-story-2-tier-list"
+      }
+    ],
+    "traits": [
+      {
+        "slug": "anime-story-2-best-traits",
+        "file": "anime-story-2-best-traits"
+      },
+      {
+        "slug": "anime-story-2-damage-traits",
+        "file": "anime-story-2-damage-traits"
+      },
+      {
+        "slug": "anime-story-2-how-to-reroll-traits",
+        "file": "anime-story-2-how-to-reroll-traits"
+      },
+      {
+        "slug": "anime-story-2-survival-traits",
+        "file": "anime-story-2-survival-traits"
+      },
+      {
+        "slug": "anime-story-2-trait-rerolls",
+        "file": "anime-story-2-trait-rerolls"
+      },
+      {
+        "slug": "anime-story-2-trait-tokens",
+        "file": "anime-story-2-trait-tokens"
+      },
+      {
+        "slug": "anime-story-2-traits",
+        "file": "anime-story-2-traits"
+      }
+    ]
+  },
+  "id": {
+    "farming": [
+      {
+        "slug": "anime-story-2-aura-farmer",
+        "file": "anime-story-2-aura-farmer"
+      },
+      {
+        "slug": "anime-story-2-relics",
+        "file": "anime-story-2-relics"
+      }
+    ],
+    "guide": [
+      {
+        "slug": "anime-story-2-best-team",
+        "file": "anime-story-2-best-team"
+      },
+      {
+        "slug": "anime-story-2-elements",
+        "file": "anime-story-2-elements"
+      }
+    ],
+    "summons": [
+      {
+        "slug": "anime-story-2-julius",
+        "file": "anime-story-2-julius"
+      },
+      {
+        "slug": "anime-story-2-yuno",
+        "file": "anime-story-2-yuno"
+      }
+    ]
+  },
+  "pt": {
+    "codes": [
+      {
+        "slug": "anime-story-2-codes",
+        "file": "anime-story-2-codes"
+      }
+    ],
+    "community": [
+      {
+        "slug": "anime-story-2-discord",
+        "file": "anime-story-2-discord"
+      },
+      {
+        "slug": "anime-story-2-re-release",
+        "file": "anime-story-2-re-release"
+      },
+      {
+        "slug": "anime-story-2-release",
+        "file": "anime-story-2-release"
+      },
+      {
+        "slug": "anime-story-2-roblox",
+        "file": "anime-story-2-roblox"
+      },
+      {
+        "slug": "anime-story-2-trello",
+        "file": "anime-story-2-trello"
+      },
+      {
+        "slug": "anime-story-2-update-1",
+        "file": "anime-story-2-update-1"
+      },
+      {
+        "slug": "anime-story-2-update",
+        "file": "anime-story-2-update"
+      }
+    ],
+    "farming": [
+      {
+        "slug": "anime-story-2-aura-farmer",
+        "file": "anime-story-2-aura-farmer"
+      },
+      {
+        "slug": "anime-story-2-best-farming-method",
+        "file": "anime-story-2-best-farming-method"
+      },
+      {
+        "slug": "anime-story-2-farm-tower-guide",
+        "file": "anime-story-2-farm-tower-guide"
+      },
+      {
+        "slug": "anime-story-2-gem-farming",
+        "file": "anime-story-2-gem-farming"
+      },
+      {
+        "slug": "anime-story-2-gold-farming",
+        "file": "anime-story-2-gold-farming"
+      },
+      {
+        "slug": "anime-story-2-relics",
+        "file": "anime-story-2-relics"
+      },
+      {
+        "slug": "anime-story-2-reroll-farming",
+        "file": "anime-story-2-reroll-farming"
+      },
+      {
+        "slug": "anime-story-2-slime-token-farming",
+        "file": "anime-story-2-slime-token-farming"
+      },
+      {
+        "slug": "anime-story-2-trait-token-farming",
+        "file": "anime-story-2-trait-token-farming"
+      }
+    ],
+    "guide": [
+      {
+        "slug": "anime-story-2-beginner-guide",
+        "file": "anime-story-2-beginner-guide"
+      },
+      {
+        "slug": "anime-story-2-best-team",
+        "file": "anime-story-2-best-team"
+      },
+      {
+        "slug": "anime-story-2-elements",
+        "file": "anime-story-2-elements"
+      },
+      {
+        "slug": "anime-story-2-guide",
+        "file": "anime-story-2-guide"
+      },
+      {
+        "slug": "anime-story-2-how-to-play",
+        "file": "anime-story-2-how-to-play"
+      },
+      {
+        "slug": "anime-story-2-map-guide",
+        "file": "anime-story-2-map-guide"
+      },
+      {
+        "slug": "anime-story-2-noob-to-pro",
+        "file": "anime-story-2-noob-to-pro"
+      },
+      {
+        "slug": "anime-story-2-progression-guide",
+        "file": "anime-story-2-progression-guide"
+      },
+      {
+        "slug": "anime-story-2-starter-guide",
+        "file": "anime-story-2-starter-guide"
+      },
+      {
+        "slug": "anime-story-2-tips",
+        "file": "anime-story-2-tips"
+      }
+    ],
+    "modes": [
+      {
+        "slug": "anime-story-2-bosses",
+        "file": "anime-story-2-bosses"
+      },
+      {
+        "slug": "anime-story-2-raids",
+        "file": "anime-story-2-raids"
+      },
+      {
+        "slug": "anime-story-2-slime-event",
+        "file": "anime-story-2-slime-event"
+      },
+      {
+        "slug": "anime-story-2-solo-boss-guide",
+        "file": "anime-story-2-solo-boss-guide"
+      },
+      {
+        "slug": "anime-story-2-stages",
+        "file": "anime-story-2-stages"
+      },
+      {
+        "slug": "anime-story-2-story-mode",
+        "file": "anime-story-2-story-mode"
+      },
+      {
+        "slug": "anime-story-2-tower",
+        "file": "anime-story-2-tower"
+      }
+    ],
+    "summons": [
+      {
+        "slug": "anime-story-2-ascended-aizen",
+        "file": "anime-story-2-ascended-aizen"
+      },
+      {
+        "slug": "anime-story-2-beru-monarch",
+        "file": "anime-story-2-beru-monarch"
+      },
+      {
+        "slug": "anime-story-2-cid",
+        "file": "anime-story-2-cid"
+      },
+      {
+        "slug": "anime-story-2-genos",
+        "file": "anime-story-2-genos"
+      },
+      {
+        "slug": "anime-story-2-julius",
+        "file": "anime-story-2-julius"
+      },
+      {
+        "slug": "anime-story-2-monarch-rimuru",
+        "file": "anime-story-2-monarch-rimuru"
+      },
+      {
+        "slug": "anime-story-2-secret-units",
+        "file": "anime-story-2-secret-units"
+      },
+      {
+        "slug": "anime-story-2-shiny-units",
+        "file": "anime-story-2-shiny-units"
+      },
+      {
+        "slug": "anime-story-2-summons",
+        "file": "anime-story-2-summons"
+      },
+      {
+        "slug": "anime-story-2-yuno",
+        "file": "anime-story-2-yuno"
+      }
+    ],
+    "tier-list": [
+      {
+        "slug": "anime-story-2-beginner-tier-list",
+        "file": "anime-story-2-beginner-tier-list"
+      },
+      {
+        "slug": "anime-story-2-best-units",
+        "file": "anime-story-2-best-units"
+      },
+      {
+        "slug": "anime-story-2-meta-units",
+        "file": "anime-story-2-meta-units"
+      },
+      {
+        "slug": "anime-story-2-re-release-tier-list",
+        "file": "anime-story-2-re-release-tier-list"
+      },
+      {
+        "slug": "anime-story-2-reroll-tier-list",
+        "file": "anime-story-2-reroll-tier-list"
+      },
+      {
+        "slug": "anime-story-2-secret-tier-list",
+        "file": "anime-story-2-secret-tier-list"
+      },
+      {
+        "slug": "anime-story-2-tier-list",
+        "file": "anime-story-2-tier-list"
+      }
+    ],
+    "traits": [
+      {
+        "slug": "anime-story-2-best-traits",
+        "file": "anime-story-2-best-traits"
+      },
+      {
+        "slug": "anime-story-2-damage-traits",
+        "file": "anime-story-2-damage-traits"
+      },
+      {
+        "slug": "anime-story-2-how-to-reroll-traits",
+        "file": "anime-story-2-how-to-reroll-traits"
+      },
+      {
+        "slug": "anime-story-2-survival-traits",
+        "file": "anime-story-2-survival-traits"
+      },
+      {
+        "slug": "anime-story-2-trait-rerolls",
+        "file": "anime-story-2-trait-rerolls"
+      },
+      {
+        "slug": "anime-story-2-trait-tokens",
+        "file": "anime-story-2-trait-tokens"
+      },
+      {
+        "slug": "anime-story-2-traits",
+        "file": "anime-story-2-traits"
+      }
+    ]
+  }
+}
