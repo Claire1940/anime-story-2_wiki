@@ -140,16 +140,20 @@ export async function getAllContent(
     }
   }
 
+  // 过滤掉缺失 frontmatter/date 的 MDX（manifest 枚举了文件但未导出 metadata，
+  // 或 metadata 缺 date 字段）。否则下游 getLatestArticles/sitemap 等访问
+  // frontmatter.lastModified 时会 undefined 崩溃，致首页/列表页 500。
+  const validItems = items.filter((item) => item.frontmatter && item.frontmatter.date)
+  if (validItems.length < items.length) {
+    console.warn(
+      `getAllContent: filtered ${items.length - validItems.length}/${items.length} items missing frontmatter/date in ${contentType}/${language}`
+    )
+  }
+
   // 按日期排序(最新的在前)
-  return items.sort((a, b) => {
-    // 添加 frontmatter 存在性检查(防御性编程)
-    if (!a.frontmatter || !b.frontmatter) {
-      console.warn('Missing frontmatter in content item:', { a: a.slug, b: b.slug })
-      return 0
-    }
-    if (!a.frontmatter.date || !b.frontmatter.date) return 0
-    return new Date(b.frontmatter.date).getTime() - new Date(a.frontmatter.date).getTime()
-  })
+  return validItems.sort(
+    (a, b) => new Date(b.frontmatter.date).getTime() - new Date(a.frontmatter.date).getTime()
+  )
 }
 
 /**
