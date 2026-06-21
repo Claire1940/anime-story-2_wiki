@@ -150,10 +150,11 @@ export async function getAllContent(
     )
   }
 
-  // 按日期排序(最新的在前)
-  return validItems.sort(
-    (a, b) => new Date(b.frontmatter.date).getTime() - new Date(a.frontmatter.date).getTime()
-  )
+  // 按日期排序(最新的在前)；guard 兜底收窄 date 类型（filter 已保证存在，双重保险）
+  return validItems.sort((a, b) => {
+    if (!a.frontmatter?.date || !b.frontmatter?.date) return 0
+    return new Date(b.frontmatter.date).getTime() - new Date(a.frontmatter.date).getTime()
+  })
 }
 
 /**
