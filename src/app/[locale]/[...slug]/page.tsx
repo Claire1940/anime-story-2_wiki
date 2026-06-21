@@ -123,7 +123,7 @@ async function renderDetailPage(
     const { default: MDXContent } = await import(
       `../../../../content/${locale}/${contentType}/${realSlug}.mdx`
     )
-    const frontmatter = getContentFrontmatter(contentType, locale, currentSlug)
+    const frontmatter = await getContentFrontmatter(contentType, locale, currentSlug)
 
     if (!frontmatter) {
       notFound()
@@ -163,7 +163,7 @@ async function renderDetailPage(
         const { default: MDXContent } = await import(
           `../../../../content/en/${contentType}/${enRealSlug}.mdx`
         )
-        const frontmatter = getContentFrontmatter(contentType, locale, currentSlug)
+        const frontmatter = await getContentFrontmatter(contentType, locale, currentSlug)
 
         if (!frontmatter) {
           notFound()
@@ -306,7 +306,7 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
     const currentSlug = slugPath.join('/')
 
     try {
-      const frontmatter = getContentFrontmatter(contentType, locale as Language, currentSlug)
+      const frontmatter = await getContentFrontmatter(contentType, locale as Language, currentSlug)
       if (!frontmatter) {
         return { title: 'Not Found' }
       }
@@ -339,7 +339,7 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
       // Fallback 到英文
       if (locale !== 'en') {
         try {
-          const frontmatter = getContentFrontmatter(contentType, locale as Language, currentSlug)
+          const frontmatter = await getContentFrontmatter(contentType, locale as Language, currentSlug)
           if (!frontmatter) {
             return { title: 'Not Found' }
           }
